@@ -160,3 +160,9 @@ Seven audience hypotheses; evidence and results are manual and start empty. No n
 Current paid authorization: Cloud Forest $40, Lyceum $20, DojoZeus $25 total campaign caps; $15 unallocated within the $100 limit. See https://mike-cloudforest.github.io/sprint/allocations-v02.json for setup status. No recurring increase is authorized.
 
 Brand Pages created September 5: Lyceum https://www.facebook.com/profile.php?id=61594221926196 ; DojoZeus https://www.facebook.com/profile.php?id=61594283693591 . Both paid pilots published; Meta Processing verified after reload. Lyceum $20 lifetime, DojoZeus $25 lifetime, both end September 8 at 3:52 PM Eastern. Current customer results and spend remain unverified. DojoZeus paid-office uses utm_campaign=growth_20260905_dz-school-owner; map it to dz-owner in reports. Historical Cloud Forest launch log predates the $85 allocation; use allocations-v02.json for current authorization.
+
+## September 5 Instagram and budget update
+Mike authorized $40 total for Lyceum and $40 total for DojoZeus for this sprint. Together with Cloud Forest, the authorized cap is $120. This replaces the earlier $100 limit. Each cap includes existing spend. No recurring renewal is authorized.
+Published to Meta with Facebook and Instagram placements under @cloudforestchinwoo. Delivery, spend, and customer results require verification in Meta.
+Current ledger: https://mike-cloudforest.github.io/sprint/allocations-v03.json
+The card-policy screen remains a paused draft, separate from the one-time platform caps.

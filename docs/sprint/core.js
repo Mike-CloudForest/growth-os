@@ -1,5 +1,5 @@
 export const KEY = 'growth-os-sprint-20260905-v1';
-export const MAX_BUDGET = 100;
+export const MAX_BUDGET = 120;
 export const STAGES = ['draft', 'approved', 'live', 'paused', 'complete'];
 export const METRICS = ['visits', 'conversations', 'bookings', 'trials', 'customers', 'ours', 'spend', 'revenue'];
 export function taggedUrl(campaign, asset) {
@@ -64,7 +64,7 @@ export function transition(status, stage, spend, paid = true) {
   if (['approved', 'live', 'complete'].includes(stage) && !status.checked) throw new Error('Complete the destination, offer, and follow-up checks first.');
   if (['live', 'complete'].includes(stage) && !status.proof.trim()) throw new Error('Add the published post or ad reference first.');
   if (stage === 'live' && !['approved', 'paused', 'live'].includes(status.stage)) throw new Error('Approve the campaign before marking it live.');
-  if (paid && stage === 'live' && spend >= MAX_BUDGET) throw new Error('The $100 spend limit has been reached. Review before launching another paid campaign.');
+  if (paid && stage === 'live' && spend >= MAX_BUDGET) throw new Error('The $120 spend limit has been reached. Review before launching another paid campaign.');
   return { ...status, stage };
 }
 export function totals(records) {

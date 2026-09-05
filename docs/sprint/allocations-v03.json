@@ -1,0 +1,40 @@
+{
+  "date": "2026-09-05",
+  "totalLimitUSD": 120,
+  "allocatedUSD": 120,
+  "unallocatedUSD": 0,
+  "recurringAuthorized": false,
+  "allocations": [
+    {
+      "company": "Cloud Forest",
+      "lifetimeCapUSD": 40,
+      "status": "Previously verified active; current spend not checked"
+    },
+    {
+      "company": "Lyceum",
+      "lifetimeCapUSD": 40,
+      "status": "Published to Meta with Facebook and Instagram placements under @cloudforestchinwoo. Delivery, spend, and customer results require verification in Meta.",
+      "page": "https://www.facebook.com/profile.php?id=61594221926196",
+      "endAt": "2026-09-08T15:52:00-04:00",
+      "instagram": "https://www.instagram.com/cloudforestchinwoo/",
+      "platforms": [
+        "Facebook",
+        "Instagram"
+      ]
+    },
+    {
+      "company": "DojoZeus",
+      "lifetimeCapUSD": 40,
+      "status": "Published to Meta with Facebook and Instagram placements under @cloudforestchinwoo. Delivery, spend, and customer results require verification in Meta.",
+      "page": "https://www.facebook.com/profile.php?id=61594283693591",
+      "endAt": "2026-09-08T15:52:00-04:00",
+      "instagram": "https://www.instagram.com/cloudforestchinwoo/",
+      "platforms": [
+        "Facebook",
+        "Instagram"
+      ]
+    }
+  ],
+  "note": "Mike authorized $40 total for Lyceum and $40 total for DojoZeus for this sprint. Together with Cloud Forest, the authorized cap is $120. This replaces the earlier $100 limit. Each cap includes existing spend. No recurring renewal is authorized.",
+  "attributionNote": "Existing campaign URLs retain utm_source=facebook across Meta placements. Use the Meta platform breakdown to distinguish Instagram delivery."
+}

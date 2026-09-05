@@ -1,4 +1,4 @@
-import { KEY, METRICS, STAGES, initialState, taggedUrl, totalSpend, totals, recommendation, validateState, validateRecord, transition } from './core.js';
+import { KEY, MAX_BUDGET, METRICS, STAGES, initialState, taggedUrl, totalSpend, totals, recommendation, validateState, validateRecord, transition } from './core.js';
 import { DEFAULT_POLICY, validatePolicy, evaluateSpend } from './budget.js';
 let policy = { ...DEFAULT_POLICY };
 const POLICY_KEY = 'growth-os-budget-draft-v1';
@@ -19,9 +19,9 @@ function renderMetrics() {
   const t = totals(records());
   $('#metrics').innerHTML = [['Real visits',t.visits],['Conversations',t.conversations],['Bookings / trials',`${t.bookings} / ${t.trials}`],['Paid customers',t.customers],['Recorded revenue',money(t.revenue)]].map(([label,value]) => `<div class="metric"><span>${label}</span><strong>${records().length ? value : '—'}</strong></div>`).join('');
   const spent = totalSpend(state.records);
-  $('#budget-status').textContent = `${money(spent)} recorded in this browser · $40 Cloud Forest · $20 Lyceum · $25 DojoZeus approved caps · $15 unallocated. Actual delivery spend requires provider verification.`;
-  $('#budget-bar').style.width = `${Math.min(100,spent)}%`;
-  $('#budget-bar').style.background = spent >= 100 ? 'var(--amber)' : 'var(--lime)';
+  $('#budget-status').textContent = `${money(spent)} recorded in this browser · $40 Cloud Forest · $40 Lyceum · $40 DojoZeus approved caps · $0 unallocated. Actual delivery spend requires provider verification.`;
+  $('#budget-bar').style.width = `${Math.min(100,spent / MAX_BUDGET * 100)}%`;
+  $('#budget-bar').style.background = spent >= MAX_BUDGET ? 'var(--amber)' : 'var(--lime)';
 }
 function renderCampaigns() {
   $('#content').innerHTML = `<div class="campaign-grid">${rows().map(c => {
@@ -37,7 +37,7 @@ function renderResults() {
   $('#content').innerHTML=`<h2 class="section-title">Record the source, then the result</h2><p class="truth-note">${esc(recommendation(records()))} Owner/test visits recorded separately: ${t.ours}. ${t.customers?`Cost per paid customer: ${money(t.spend/t.customers)}.`:''}</p><div class="split" style="margin-top:22px"><form id="result-form" class="card"><h3>Add a daily increment</h3><p>Enter new counts since your previous entry, not cumulative totals. Count each customer once. The source report should exclude owner/test traffic.</p><div class="form-grid"><div class="wide"><label for="result-company">Company</label><select id="result-company" name="campaignId">${rows().map(c=>`<option value="${c.id}">${esc(c.company)}</option>`).join('')}</select></div><div class="wide"><label for="result-date">Date</label><input id="result-date" name="date" type="date" min="2026-09-05" max="2026-09-11" value="2026-09-05" required></div>${METRICS.map(k=>`<div><label for="result-${k}">${{visits:'Real visits',ours:'Our/test visits',customers:'Paid customers',revenue:'Revenue ($)',spend:'Spend ($)'}[k]??k}</label><input id="result-${k}" name="${k}" type="number" min="0" max="100000000" step="${['spend','revenue'].includes(k)?'.01':'1'}" value="0" required></div>`).join('')}<div class="wide"><label for="evidence">Evidence reference</label><input id="evidence" name="evidence" placeholder="CRM daily report / channel export / invoice reference" minlength="5" maxlength="500" required><p>Use report names or internal references. Keep customer names, email addresses, and payment details in the CRM.</p></div></div><button class="primary" type="submit">Save result</button></form><div class="card"><h3>Evidence log</h3>${records().length?records().slice().reverse().map(r=>`<div class="result-row"><b>${esc(data.campaigns.find(c=>c.id===r.campaignId).company)} · ${esc(r.date)}</b><p>${r.visits} real visits · ${r.conversations} conversations · ${r.bookings} bookings · ${r.trials} trials · ${r.customers} paid</p><p>${money(r.spend)} spent · ${money(r.revenue)} revenue</p><small>${esc(r.evidence)}</small></div>`).join(''):'<p class="empty">No results have been entered. Nothing here is connected to live analytics yet.</p>'}</div></div>`;
 }
 function renderPaid() {
-  $('#content').innerHTML=`<h2>Approved pilot allocations</h2><p>$100 total limit. $85 allocated and $15 unallocated. These are total campaign caps, with no recurring authorization. Recorded results are separate from the provider's verified delivery.</p><div class="campaign-grid">${data.campaigns.filter(c=>c.budget>0).map(c=>`<article class="card"><h3>${esc(c.company)}: ${money(c.budget)}</h3><p>${esc(c.publicationStatus)}</p>${c.page?`<p><a href="${esc(c.page)}" target="_blank" rel="noopener">Open ${esc(c.company)} Facebook Page</a></p>`:''}<p>${esc(c.conversion)}</p>${c.assets.filter(a=>a.medium==='paid_social').map(a=>`<h4>${esc(a.title)}</h4><p style="white-space:pre-line">${esc(a.body)}</p><div class="url">${esc(taggedUrl(c,a))}</div>`).join('')}</article>`).join('')}</div><p><a href="./launch-log-20260905.json">Cloud Forest launch evidence</a> · <a href="./allocations-v02.json">Current authorization and publication record</a></p><p>Use a lifetime budget and a fixed end date in Meta. Verify the correct brand Page, destination, creative, and signup path before publication. Review verified customers and acquisition cost before increasing spend.</p>`;
+  $('#content').innerHTML=`<h2>Approved pilot allocations</h2><p>$120 total limit. $40 each for Cloud Forest, Lyceum, and DojoZeus. These are total campaign caps, with no recurring authorization. Recorded results are separate from the provider's verified delivery.</p><div class="campaign-grid">${data.campaigns.filter(c=>c.budget>0).map(c=>`<article class="card"><h3>${esc(c.company)}: ${money(c.budget)}</h3><p>${esc(c.publicationStatus)}</p>${c.page?`<p><a href="${esc(c.page)}" target="_blank" rel="noopener">Open ${esc(c.company)} Facebook Page</a></p>`:''}<p>${esc(c.conversion)}</p>${c.assets.filter(a=>a.medium==='paid_social').map(a=>`<h4>${esc(a.title)}</h4><p style="white-space:pre-line">${esc(a.body)}</p><div class="url">${esc(taggedUrl(c,a))}</div>`).join('')}</article>`).join('')}</div><p><a href="./launch-log-20260905.json">Cloud Forest launch evidence</a> · <a href="./allocations-v03.json">Current authorization and publication record</a></p><p>Use a lifetime budget and a fixed end date in Meta. Verify the correct brand Page, destination, creative, and signup path before publication. Review verified customers and acquisition cost before increasing spend.</p>`;
 }
 
 function render() {
@@ -96,11 +96,11 @@ document.addEventListener('submit',event=>{
   try{
     const form=new FormData(event.target),r={id:crypto.randomUUID(),campaignId:form.get('campaignId'),date:form.get('date'),evidence:form.get('evidence').trim()};
     METRICS.forEach(k=>r[k]=Number(form.get(k)));validateRecord(r,data.campaigns.map(c=>c.id));
-    state.records.push(r);save();render();notice(totalSpend(state.records)>=100?'Result saved. Spend has reached the $100 limit. Pause paid delivery in the ad account.':'Result saved with its evidence reference.');
+    state.records.push(r);save();render();notice(totalSpend(state.records)>=MAX_BUDGET?'Result saved. Spend has reached the $120 limit. Pause paid delivery in the ad account.':'Result saved with its evidence reference.');
   }catch(error){notice(error.message);}
 });
 try {
-  const response=await fetch('./campaigns-v03.json');if(!response.ok)throw new Error('Campaign data could not be loaded.');data=await response.json();
+  const response=await fetch('./campaigns-v04.json');if(!response.ok)throw new Error('Campaign data could not be loaded.');data=await response.json();
   try{const draft=localStorage.getItem(POLICY_KEY);if(draft)policy=validatePolicy(JSON.parse(draft));}catch{notice('The saved spending draft could not be read. Defaults loaded with spending paused.');}
   try{const stored=localStorage.getItem(KEY);if(stored)state=validateState(JSON.parse(stored),data.campaigns);}
   catch{storageReady=false;notice('Saved data could not be read. It has been preserved in browser storage. Restore a valid backup before saving new work.');}

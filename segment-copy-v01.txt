@@ -1,0 +1,200 @@
+cf-parent
+
+Cloud Forest
+
+Greensboro parents choosing a first martial arts class
+
+Showing parents what happens during a first visit will help more of them book.
+
+Your child's first martial arts class can start with a free visit.
+
+['Beginners are welcome. Your child can try a class before you decide to enroll.', 'Parents can sit beside the training floor and watch the class.', 'Choose an available class and complete the visitor form before arriving.', 'Come ten minutes early in comfortable clothes to 719 W Gate City Blvd in Greensboro.']
+
+Reserve a free class visit
+
+https://traincloudforest.com/visit
+
+A current class photo approved for public use, confirmed class availability, and an anonymized parent inquiry about starting.
+
+Confirmed booked visits
+
+Attended visits and paid enrollments
+
+Use the existing parent pilot as the baseline. Check booking attribution first. Review the page draft before proposing a separate landing-page test.
+
+cf-taichi
+
+Cloud Forest
+
+Local adults considering their first Tai Chi class
+
+A clear explanation of the first class will help interested beginners choose a visit.
+
+Try a Tai Chi class in Greensboro.
+
+['You can start with no previous training.', 'Your first visit is free, so you can take a class before deciding to continue.', 'Check the available classes and complete the visitor form before coming.', 'Cloud Forest is at 719 W Gate City Blvd in Greensboro.']
+
+Choose a class for your free visit
+
+https://traincloudforest.com/visit
+
+Confirm the current beginner Tai Chi schedule and obtain a current class photo with permission to use it.
+
+Confirmed booked visits
+
+Attended visits and paid enrollments
+
+Keep as an organic draft until the parent pilot is reviewed. Avoid medical or fitness outcome promises.
+
+dz-office
+
+DojoZeus
+
+School owners doing tuition and attendance work after class
+
+Starting with a familiar office task will produce more qualified demos than a general feature tour.
+
+Finish class with fewer office tasks left to sort out.
+
+['See attendance and school records together when deciding who needs a follow-up.', "Review tuition, waivers, and the school's website in one system.", 'Ask Zeus to help work through the school records.', 'Check whether the workflow fits your school before committing to a subscription.']
+
+See DojoZeus
+
+https://dojozeus.com/
+
+Record a working demo with sample school data. Collect an owner interview confirming which task costs the most time. Do not claim measured time savings yet.
+
+Qualified owner demos
+
+Trials and paid schools
+
+Review with one consenting owner. Pricing remains $99/mo or $990/yr for the first 20 schools; standard $169/mo or $1,690/yr. No setup fee. The 14-day trial requires a card. Check founding availability.
+
+dz-contract
+
+DojoZeus
+
+School owners evaluating software before a current contract ends
+
+A concrete transition discussion will get more replies from owners who cannot switch immediately.
+
+Look at your next school system before your current contract ends.
+
+['Start with the attendance and tuition work you need the new system to handle.', 'See how DojoZeus brings school records and the website together.', 'Review the work needed to move your school before choosing a start date.', 'Confirm pricing and founding availability when you are ready to subscribe.']
+
+Review DojoZeus for your school
+
+https://dojozeus.com/
+
+Verify supported imports, expected transition work, and the owner's contract timing. Do not promise free overlap, automatic imports, or a reserved founding price.
+
+Qualified owner demos
+
+Trials and paid schools
+
+Prepare a migration checklist from supported imports. Keep outreach in draft until approved.
+
+ly-teacher
+
+Lyceum
+
+Teachers with a workshop or lesson ready to put online
+
+Starting with one existing lesson will make the first school setup feel achievable.
+
+Put your first lesson in a school with your name on it.
+
+['Start with a lesson you already teach.', 'Build your school free and review the paid plans before subscribing.', 'See a working school before deciding how to organize your own.', 'Choose the plan that fits how you want to teach and serve your members.']
+
+See how to start your school
+
+https://joinlyceum.com/
+
+A working sample lesson, a verified signup flow, and an interview with a teacher who already has interested students.
+
+Verified signups that publish a lesson
+
+Paid schools
+
+Show a working example to a consenting teacher. Record where setup becomes confusing. Free signups alone do not establish revenue.
+
+rb-owner
+
+RigBoss
+
+Owner-operators managing truck records after a run
+
+A demo of one paperwork task will produce clearer buying signals than a broad platform pitch.
+
+See how RigBoss handles the paperwork after a run.
+
+['Start the demo with a truck record you need to keep organized.', 'Review the workflow before deciding whether it fits your operation.', 'Keep your ELD in place while evaluating RigBoss.', 'Confirm the current plan and onboarding requirements on the product site.']
+
+See RigBoss
+
+https://rigboss.app/
+
+A verified demo using sample records and an owner interview identifying the recurring paperwork problem. Avoid compliance guarantees.
+
+Qualified operator demos
+
+Paid trucks
+
+Confirm the exact supported workflow before recording the demo. Keep ads and outreach in draft.
+
+mc-writer
+
+Mech Correct
+
+Independent shop owners and service writers handling repair updates
+
+Showing a repair update will prompt more useful conversations than listing every feature.
+
+Show a customer what is happening with the repair.
+
+['Start with a repair photo and the update a customer needs.', 'See the shop workflow in a demo before deciding whether it fits your service desk.', 'Check how the system handles the next step in the repair.', 'Review onboarding and the current offer on the product site.']
+
+See Mech Correct
+
+https://mechcorrect.com/
+
+A working demo with sample repair data, confirmed customer-update behavior, and an interview with a service writer. Do not claim recovered revenue without records.
+
+Qualified shop demos
+
+Paid shops
+
+Verify the customer-update flow and record a short demo. Keep ads and outreach in draft.
+
+# Buyer-segment landing-page tests
+
+The transcript suggests creating a base landing page, adapting its headline and reasons to buyer groups, and matching each ad to its page. Growth OS now has seven draft segments across the five companies. These are hypotheses drawn from the existing company briefings. No customer interviews or new reviews have been collected for them.
+
+Use this sequence:
+
+1. Start with Cloud Forest parents. Keep the approved $40 parent pilot as the current baseline. Confirm which booked visits can be traced to it and check whether those visitors attend.
+2. Collect three anonymized inquiries or consenting parent interviews as an initial discovery sample. Record the source and date. Identify the repeated uncertainty about a first visit. Three conversations can inform copy; they do not establish market demand.
+3. Review the parent page draft in the segment desk. Add a current, approved class photo. Confirm schedule, visitor form, confirmation, and follow-up responsibility. Keep the free-visit offer consistent from ad to page to booking.
+4. Deploy the reviewed variant on traincloudforest.com. The Growth OS preview is for review. Keep the existing booking system and preserve the campaign and variant tags through booking. Record confirmed bookings in the CRM, not just button clicks.
+5. Propose one page test after reviewing the pilot. Keep the audience, creative, offer, and schedule consistent between arms. Random assignment is preferable when the site supports it. Sequential comparisons are directional because timing can affect results. The remaining $60 is held; this document does not release it.
+6. Record comparable visitor cohorts, confirmed bookings, attended visits, paid enrollments, and spend. Review cost per enrollment against verified contribution margin and available class capacity before considering a larger budget. Zero customers means acquisition cost is unavailable, rather than zero.
+
+DojoZeus is the next draft to validate with a consenting owner. Begin with the after-class office workload. Record a short demo with sample school data, then ask which task would make the product worth trying. Keep the contract-ending segment separate until supported imports and transition requirements have been checked. Keep the verified founding offer and card-required trial consistent on every surface.
+
+Lyceum starts with a teacher who already has a lesson. RigBoss starts with a specific paperwork task. Mech Correct starts with a repair update. Verify each demonstrated workflow before publishing claims. These segments have no new outbound or paid authorization.
+
+## What to keep from the transcript
+
+Reuse one page structure, keep the offer fixed, and change the headline and supporting reasons for a buying situation. Start with actual customer language where permission allows its use. A short list of reasons is a format to test. Write original copy and use approved brand assets.
+
+The claims about reaching a million dollars per month, outperforming 99% of advertisers, and listicles being universally best are unsupported by the supplied transcript. Generating 20 personas does not validate them. With this budget, splitting spend across 20 pages would leave little evidence for each. Customer value and conversion lift must be measured.
+
+## Measurement and operating limits
+
+The segment desk stores manual cumulative totals in this browser and supports JSON backup and restore. It has no analytics collector, CRM connector, randomized traffic router, ad executor, or automatic spending authority. Its result table describes the entered totals and never declares a statistical winner. Keep raw customer records in the CRM. Do not paste private reviews, names, email addresses, or payment details into this desk.
+
+Before launch, record the changed variable, date range, primary conversion, result source, and the expected delay before a customer pays. Choose a test duration and sample requirement from baseline conversion data; that baseline is not available yet. Resolve broken tracking or signup before spending further. Avoid changing a running test because of a handful of clicks.
+
+## Supporting guidance
+
+Google describes the importance of relevant landing-page content and clear navigation in [its landing-page guidance](https://blog.google/products/ads-commerce/search-ads-and-the-importance-of-landing-page-navigation/). Its [experiment guide](https://services.google.com/fh/files/misc/campaign_experiments_two_sheeter.pdf) recommends focusing on one variable and one primary metric. These support the testing approach; they do not prove the transcript's revenue claims or predict results on Meta.

@@ -12,6 +12,7 @@ Internal marketing engineer desk for five Cloud Forest companies. Built from Gre
 | **Live desk (searchable SuperBrain extract)** | https://mike-cloudforest.github.io/ |
 | **AI briefing (Claude / ChatGPT / Gemini start here)** | https://raw.githubusercontent.com/Mike-CloudForest/growth-os/main/docs/llms.txt |
 | **Machine extract (30 notes)** | https://raw.githubusercontent.com/Mike-CloudForest/growth-os/main/docs/brain.json |
+| **Buyer segments and page drafts** | https://mike-cloudforest.github.io/sprint/segments.html |
 | SuperBrain search | `Growth OS marketing desk` |
 
 ![Growth OS cockpit](docs/shots/cockpit.png)

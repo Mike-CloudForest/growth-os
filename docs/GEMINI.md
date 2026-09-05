@@ -152,3 +152,7 @@ Will’s Tekmetric walkthrough, Aug 16 2026: everything is there, but there has 
 ### Mech Correct voice and bans
 - company: mechcorrect · kind: voice · project: shopboss · 2026-09-05
 Shop floor, not Silicon Valley. The pizza tracker for repairs. One price, no modules, no sales call. Banned as headlines: all-in-one, next-gen, AI-powered, synergy, rip and replace with no migration.
+
+Buyer-segment drafts and test desk: https://mike-cloudforest.github.io/sprint/segments.html
+Implementation plan: https://mike-cloudforest.github.io/sprint/segment-playbook-v01.md
+Seven audience hypotheses; evidence and results are manual and start empty. No new launch or spend is authorized by these drafts.

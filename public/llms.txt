@@ -39,3 +39,7 @@ Mech Correct: wedge is Tekmetric-class UX + FullBay leak-hunting + AI advisor. D
 Cloud Forest: Greensboro Martial Arts Academy LLC dba Cloud Forest Martial Institute, 719 W Gate City Blvd, Greensboro, NC. Parents buy a known name, not combat. First month $49.
 
 No Stripe keys, passwords, account IDs, or credential locations belong here or in SuperBrain notes.
+
+Buyer-segment drafts and test desk: https://mike-cloudforest.github.io/sprint/segments.html
+Implementation plan: https://mike-cloudforest.github.io/sprint/segment-playbook-v01.md
+Seven audience hypotheses; evidence and results are manual and start empty. No new launch or spend is authorized by these drafts.

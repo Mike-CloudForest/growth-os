@@ -1,0 +1,29 @@
+{
+  "recordedDate": "2026-09-05",
+  "campaignId": "cf-free-visit",
+  "authorization": {"totalUSD": 100, "pilotLifetimeUSD": 40, "remainingOnHoldUSD": 60, "recurringAuthorized": false},
+  "meta": {
+    "adName": "Cloud Forest | parent free visit | pilot",
+    "verifiedStatus": "Active",
+    "verification": "Ads Manager after page reload",
+    "budgetType": "Lifetime, not shared",
+    "budgetUSD": 40,
+    "endAt": "2026-09-07T14:14:00-04:00",
+    "location": "Greensboro city only",
+    "minimumAge": 25,
+    "interestedInLocationExpansion": false,
+    "destination": "https://traincloudforest.com/visit?utm_source=facebook&utm_medium=paid_social&utm_campaign=growth_20260905_cf-free-visit&utm_content=paid-parent"
+  },
+  "facebook": {
+    "status": "Published",
+    "url": "https://www.facebook.com/cloudforestchinwoo/posts/pfbid02wsSyVSF9pKPisbusLutqTYcMF8tt7hsN1vHHpaTANee6LqeFpX4RxmkuVhYrAJD2l"
+  },
+  "googleBusiness": {
+    "status": "Published",
+    "verification": "Google Business Your posts confirms published update",
+    "destination": "https://traincloudforest.com/visit?utm_source=google_business&utm_medium=organic&utm_campaign=growth_20260905_cf-free-visit&utm_content=local",
+    "linkPlacement": "Post body; optional booking button removed after validation failure"
+  },
+  "results": {"currentSpendUSD": null, "conversions": null, "reason": "No current-period performance report collected yet"},
+  "autonomousSpending": {"enabled": false, "cardStored": false, "status": "Draft policy only; private provider integration required"}
+}

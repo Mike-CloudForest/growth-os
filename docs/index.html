@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Growth OS — Cloud Forest</title>
+  <meta name="description" content="Marketing engineer desk for Cloud Forest, DojoZeus, Lyceum, RigBoss, and Mech Correct." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #0a0a0b;
+      --fg: #f4f4f5;
+      --card: #121214;
+      --muted: #1c1c20;
+      --muted-fg: #a1a1aa;
+      --subtle: #71717a;
+      --border: #27272a;
+      --primary: #e4e4e7;
+      --primary-fg: #0a0a0b;
+      --success: #86efac;
+      --danger: #fca5a5;
+      --warn: #fde68a;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; background: var(--bg); color: var(--fg); font-family: "IBM Plex Sans", system-ui, sans-serif; font-size: 15px; line-height: 1.5; }
+    h1, h2 { font-family: Newsreader, Georgia, serif; letter-spacing: -0.03em; font-weight: 500; text-wrap: balance; }
+    a { color: inherit; }
+    .wrap { max-width: 1100px; margin: 0 auto; padding: 28px 20px 80px; }
+    .kicker { font-size: 11px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--subtle); font-weight: 500; }
+    .lede { color: var(--muted-fg); max-width: 42rem; }
+    .links { display: flex; flex-wrap: wrap; gap: 10px; margin: 18px 0 28px; }
+    .links a { display: inline-flex; align-items: center; min-height: 44px; padding: 0 14px; border-radius: 8px; background: var(--muted); text-decoration: none; font-size: 13px; }
+    .links a.primary { background: var(--primary); color: var(--primary-fg); }
+    .chips { display: flex; flex-wrap: wrap; gap: 6px; margin: 16px 0 22px; }
+    .chips button { min-height: 40px; padding: 0 12px; border: 0; border-radius: 6px; background: transparent; color: var(--muted-fg); font: 500 12px/1 "IBM Plex Sans", sans-serif; cursor: pointer; }
+    .chips button.on { background: var(--primary); color: var(--primary-fg); }
+    input { width: 100%; height: 44px; border: 0; border-radius: 8px; background: var(--muted); color: var(--fg); padding: 0 12px; font: 14px/1 "IBM Plex Sans", sans-serif; outline: none; }
+    .grid { display: grid; gap: 12px; }
+    @media (min-width: 800px) { .grid.two { grid-template-columns: 1.4fr 1fr; } }
+    article { background: var(--card); border-radius: 12px; padding: 18px 18px 16px; box-shadow: 0 0 0 1px rgb(255 255 255 / 0.08); }
+    .meta { display: flex; gap: 8px; align-items: center; font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--subtle); font-family: "IBM Plex Mono", monospace; }
+    .mark { display: inline-flex; width: 28px; height: 28px; align-items: center; justify-content: center; border-radius: 4px; background: var(--muted); font-family: "IBM Plex Mono", monospace; font-size: 11px; }
+    article h2 { margin: 8px 0 8px; font-size: 1.25rem; }
+    article p { margin: 0; color: var(--muted-fg); }
+    .empty { text-align: center; padding: 40px 16px; color: var(--muted-fg); }
+    footer { margin-top: 40px; color: var(--subtle); font-size: 13px; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <p class="kicker">Growth OS · SuperBrain extract</p>
+    <h1>The house memory the other rooms write from.</h1>
+    <p class="lede">Internal marketing engineer desk for five Cloud Forest companies. Agents draft. A human approves anything that leaves the building. Score tests on conversations and closes, not likes.</p>
+    <div class="links">
+      <a class="primary" href="https://github.com/Mike-CloudForest/growth-os">GitHub repo</a>
+      <a href="llms.txt">llms.txt for other AIs</a>
+      <a href="brain.json">brain.json</a>
+    </div>
+    <input id="q" type="search" placeholder="Search voice, bans, prices, competitors…" aria-label="Search SuperBrain" />
+    <div class="chips" id="companies"></div>
+    <div class="chips" id="kinds"></div>
+    <p class="kicker" id="count"></p>
+    <div class="grid" id="list"></div>
+    <footer>
+      Owner: Michael Johnson / Cloud Forest. SuperBrain projects: dojo, lyceum, rigboss, shopboss, general.
+      No Stripe keys or passwords live here. If you are Claude, ChatGPT, Gemini, or Grok: read llms.txt, then search SuperBrain for “Growth OS marketing desk”.
+    </footer>
+  </div>
+  <script>
+    const MARK = { all: "ALL", cloudforest: "CF", dojozeus: "DZ", lyceum: "LY", rigboss: "RB", mechcorrect: "MC" };
+    const NAMES = { all: "House", cloudforest: "Cloud Forest", dojozeus: "DojoZeus", lyceum: "Lyceum", rigboss: "RigBoss", mechcorrect: "Mech Correct" };
+    const KINDS = ["all","fact","decision","voice","ban","eval","competitor"];
+    let selected = "all", kind = "all", query = "", notes = [];
+
+    const $companies = document.getElementById("companies");
+    const $kinds = document.getElementById("kinds");
+    const $list = document.getElementById("list");
+    const $count = document.getElementById("count");
+
+    function chips(el, items, current, set) {
+      el.innerHTML = items.map(([id, label]) => `<button type="button" data-id="${id}" class="${id===current?"on":""}">${label}</button>`).join("");
+      el.querySelectorAll("button").forEach(btn => btn.onclick = () => { set(btn.dataset.id); render(); });
+    }
+
+    function render() {
+      chips($companies, Object.entries(NAMES), selected, id => selected = id);
+      chips($kinds, KINDS.map(k => [k, k === "all" ? "All kinds" : k]), kind, id => kind = id);
+      const q = query.trim().toLowerCase().split(/\s+/).filter(Boolean);
+      const rows = notes.filter(n => {
+        if (selected !== "all" && n.businessId !== selected && n.businessId !== "all") return false;
+        if (kind !== "all" && n.kind !== kind) return false;
+        if (!q.length) return true;
+        const hay = `${n.title} ${n.body} ${n.kind} ${(n.tags||[]).join(" ")}`.toLowerCase();
+        return q.every(t => hay.includes(t));
+      });
+      $count.textContent = `${rows.length} notes · ingested September 5, 2026`;
+      $list.innerHTML = rows.length ? rows.map(n => `
+        <article>
+          <div class="meta"><span class="mark">${MARK[n.businessId]||"ALL"}</span> ${n.kind} · ${n.project} · ${n.date||""}</div>
+          <h2>${n.title}</h2>
+          <p>${n.body}</p>
+        </article>`).join("") : `<div class="empty">Nothing in this extract for that search.</div>`;
+    }
+
+    document.getElementById("q").addEventListener("input", e => { query = e.target.value; render(); });
+
+    fetch("brain.json").then(r => r.json()).then(data => {
+      notes = data.notes || [];
+      render();
+    }).catch(() => {
+      $list.innerHTML = `<div class="empty">Could not load brain.json. See <a href="llms.txt">llms.txt</a>.</div>`;
+    });
+  </script>
+</body>
+</html>

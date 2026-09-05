@@ -2,8 +2,9 @@
 
 Internal marketing engineer desk for five Cloud Forest companies. Built from Greg Isenberg’s “Marketing Engineer” job: customer truth, founder content, outbound with approval, creative tests scored on conversations/closes, AI-search citations, a weekly cockpit, and SuperBrain as house memory.
 
-**Live:** https://growth-os.vercel.app  
-**AI briefing:** https://growth-os.vercel.app/llms.txt  
+**Live (public):** https://mike-cloudforest.github.io/growth-os/  
+**AI briefing:** https://mike-cloudforest.github.io/growth-os/llms.txt  
+**Machine extract:** https://mike-cloudforest.github.io/growth-os/brain.json  
 **Repo:** https://github.com/Mike-CloudForest/growth-os  
 **Owner:** Michael Johnson / Cloud Forest
 
@@ -60,4 +61,4 @@ npm run build
 npm run typecheck
 ```
 
-Vercel project: `growth-os` on team `jarvis-cloud-forest`. Production env needs `XAI_API_KEY` and `VITE_AUTH_ENABLED=false`. Do not set `DATABASE_URL`.
+Vercel: project `growth-os-app` on team `jarvis-cloud-forest`. Production env needs `XAI_API_KEY` and `VITE_AUTH_ENABLED=false`. Do not set `DATABASE_URL`. Team SSO is currently on for new Vercel projects — turn off Deployment Protection if other AIs should fetch the Vercel URL without logging in.

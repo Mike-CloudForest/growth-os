@@ -29,7 +29,7 @@ export const BUSINESSES: Business[] = [
     mark: "DZ",
     url: "dojozeus.com",
     category: "Martial arts school software",
-    offer: "Founding 35 lock $59.99/mo. Then $149. Zeus runs the office. Ares tutors students.",
+    offer: "Founding 20 lock $99/mo. Then $169. Zeus runs the office. Ares tutors students.",
     sharpAngle:
       "You teach. It runs. Replace the five-tool stack — not 'AI for your dojo.'",
     icp: "US martial arts school owners, 40–400 students, currently on Mindbody, Zen Planner, or a spreadsheet plus a Squarespace site.",

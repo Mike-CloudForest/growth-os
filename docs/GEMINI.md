@@ -16,13 +16,13 @@ You do not have SuperBrain in this chat. Treat this briefing as house memory for
 
 ## Companies
 - Cloud Forest — traincloudforest.com — SuperBrain project `dojo`
-- DojoZeus — dojozeus.com — SuperBrain `lyceum` (peer brand of Lyceum; school ops also `dojo`)
+- DojoZeus dojozeus.com SuperBrain `lyceum` (peer brand of Lyceum; Cloud Forest operations use `dojo`)
 - Lyceum — joinlyceum.com — SuperBrain `lyceum`
 - RigBoss — rigboss.app — SuperBrain `rigboss`
 - Mech Correct — mechcorrect.com — SuperBrain `shopboss`
 
 ## Hard rules
-- DojoZeus: founding $59.99/mo × first 35 schools, then $149. Not $99 / 20 / $169. Never headline “AI for your dojo.” Zero Lyceum traces on dojozeus.com public surfaces. Combat Factory (thecombatfactory.com) is the concierge/beta school — do not name it as a logo-wall customer.
+- DojoZeus: founding $99/mo × first 20 schools, then $169. Never headline “AI for your dojo.” Zero Lyceum traces on dojozeus.com public surfaces. Combat Factory (thecombatfactory.com) is the concierge/beta school. do not name it as a logo-wall customer.
 - Lyceum: Starter $49+5%, Pro $99+2%, Academy $249+0%. Never call Starter capped, limited, or a dead end. Never sneer at Kajabi. Every traffic count is Real vs Ours. Week to 2026-09-05: 85 real visitors, 0 real Lyra questions. Kajabi compare (/vs/kajabi) is live.
 - RigBoss: public catalog is rigboss.app / rigboss.io — “the operating system for every tractor.” App is app.rigboss.app. Never say we replace the ELD.
 - Mech Correct: wedge is Tekmetric-class UX + FullBay leak-hunting + AI advisor. Demo on a photo of a leak. CarSignal launched Aug 17 2026 at $200/mo. Starter $199/mo with advisor included.
@@ -65,16 +65,16 @@ Quiet, specific, lineage-true. The instructor knows your name by the second clas
 - company: dojozeus · kind: decision · project: lyceum · 2026-07-23
 DojoZeus rides the Lyceum engine as a peer brand. Public surfaces on dojozeus.com carry zero Lyceum traces. Shared legal entity is ownership, not chrome. Cloud Forest remains the original single-tenant school at traincloudforest.com — port code out of it, never add tenancy into it.
 
-### Founding 35 at $59.99, then $149
+### Founding 20 at $99, then $169
 - company: dojozeus · kind: decision · project: lyceum · 2026-07-20
-Founding: $59.99/mo or $599/yr, first 35 schools, rate locked while continuously subscribed. Standard: $149/mo or $1,490/yr. Zeus runs the office. Ares tutors. DojoZeus schools are all-inclusive and rank as Academy for plan gates. Talk to owners, not instructors who cannot buy.
+Founding: $99/mo or $990/yr, first 20 schools, rate locked while continuously subscribed. Standard: $169/mo or $1,690/yr. No setup fee. The 14-day trial requires a card. Pricing verified against live Stripe on September 5, 2026; owner decision July 25 supersedes July 20. Zeus runs the office. Ares tutors. DojoZeus schools are all-inclusive and rank as Academy for plan gates. Talk to owners, not instructors who cannot buy.
 
 ### You teach. It runs.
-- company: dojozeus · kind: eval · project: dojo · 2026-09-05
+- company: dojozeus · kind: eval · project: lyceum · 2026-09-05
 Stack-replacement produced owner conversations. “AI for your dojo” produced instructor clicks and zero buyers. Open demos on the at-risk list, not the belt editor. Two schools posting a front-desk hiring ad is the trigger this week.
 
 ### DojoZeus bans
-- company: dojozeus · kind: ban · project: dojo · 2026-09-05
+- company: dojozeus · kind: ban · project: lyceum · 2026-09-05
 Banned: AI for your dojo as the headline, disrupt, ninja software, replace your ELD, sensei bot. Built for the mat, not the desk. Every belt. Every dollar. Every student. One brain.
 
 ### Combat Factory is the concierge school
@@ -82,8 +82,8 @@ Banned: AI for your dojo as the headline, disrupt, ninja software, replace your 
 Combat Factory (thecombatfactory.com) is the real DojoZeus beta school, not a paying case study to quote in ads. Concierge work in September 2026: dojo template lighting, visitor assistant, video hero, Send-to-the-team in Zeus. Do not name it as a logo-wall customer.
 
 ### Mindbody year-lock is the objection
-- company: dojozeus · kind: competitor · project: dojo · 2026-09-04
-Owners do not object to the fee. They object to “we just signed for a year.” Sit beside them until the contract ends. Founding $59.99 holds if they claim a seat now. Zen Planner public outages are a moment to engage commenters, not dunk.
+- company: dojozeus · kind: competitor · project: lyceum · 2026-09-04
+Owners do not object to the fee. They object to “we just signed for a year.” Sit beside them until the contract ends. Founding eligibility depends on availability. The $99 monthly rate stays locked while continuously subscribed. Zen Planner public outages are a moment to engage commenters, not dunk.
 
 ### How we talk about the plans
 - company: lyceum · kind: decision · project: lyceum · 2026-09-04

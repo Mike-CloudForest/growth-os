@@ -72,7 +72,7 @@ Adults 40+ are converting on Tai Chi after a fall in the family. That page is st
     kpis: [
       { label: "Owner conversations", value: "4", delta: "stack-replacement angle", tone: "up" },
       { label: "AI-headline closes", value: "0", delta: "340 instructor clicks", tone: "down" },
-      { label: "Founding seats", value: "6 / 35", delta: "lock $59.99", tone: "flat" },
+      { label: "Founding seats", value: "Unverified", delta: "20-school cap", tone: "flat" },
       { label: "High-fit queued", value: "3", delta: "front-desk hiring trigger", tone: "up" },
     ],
     brief: {
@@ -223,7 +223,7 @@ export const OBJECTIONS: Objection[] = [
     businessId: "dojozeus",
     line: "We just signed Mindbody for a year.",
     count: 5,
-    counter: "Sit beside them until March. Founding $59.99 holds if they claim a seat now.",
+    counter: "Sit beside them until March. Founding eligibility depends on availability. The $99 monthly rate stays locked while continuously subscribed.",
   },
   {
     id: "ob-dz-2",
@@ -682,7 +682,7 @@ export const SIGNALS: Signal[] = [
     trigger: "Google review: ‘front desk always has a line.’",
     whyNow: "Pain is public. Contract is the objection. Offer a March migration, not a rip.",
     draft:
-      "The line at the desk is what the kiosk is for. You are on Mindbody through March — we can sit beside you until then, then cut the stack. Founding $59.99 holds if you claim a seat now. —",
+      "The line at the desk is what the kiosk is for. You are on Mindbody through March. We can sit beside you until then, then cut the stack. Founding pricing is $99 per month for the first 20 schools, locked while continuously subscribed. Check availability before starting.",
     status: "queued",
     fit: "high",
   },
@@ -706,7 +706,7 @@ export const SIGNALS: Signal[] = [
     trigger: "Posted ‘I should just put this on Kajabi and be done.’",
     whyNow: "She is about to pay $149 for a hall she will not own.",
     draft:
-      "You can build the school tonight with your name on the door and not pay until someone enrolls. Kajabi starts at $149 whether you have members or not. If you want, I’ll sit on a call while you pick a name. —",
+      "You can build your school free with your name on the door. Review the paid plan and its trial terms before subscribing. I can walk you through setting up your first lesson.",
     status: "queued",
     fit: "high",
   },
@@ -992,7 +992,7 @@ export const SEARCH_ASSETS: SearchAsset[] = [
     query: "Mindbody alternative for martial arts school",
     intent: "Owner shopping a stack replacement.",
     answer:
-      "DojoZeus replaces billing, website, email, courses, and community. Founding $59.99/mo, then $149. Zeus flags students who quietly quit.",
+      "DojoZeus replaces billing, website, email, courses, and community. Founding $99/mo, then $169. Zeus flags students who quietly quit.",
     status: "drafted",
   },
   {

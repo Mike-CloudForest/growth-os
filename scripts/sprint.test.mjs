@@ -2,7 +2,7 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
 import { initialState, taggedUrl, transition, validateState, validateRecord, totalSpend, recommendation } from '../public/sprint/core.js';
-const data=JSON.parse(readFileSync(new URL('../public/sprint/campaigns-v01.json',import.meta.url),'utf8'));
+const data=JSON.parse(readFileSync(new URL('../public/sprint/campaigns-v02.json',import.meta.url),'utf8'));
 const record={id:'a',campaignId:'cf-free-visit',date:'2026-09-05',evidence:'CRM daily export',visits:10,conversations:1,bookings:1,trials:0,customers:0,ours:3,spend:12.5,revenue:0};
 test('five companies, authorized budget, unique campaign links, correct domains',()=>{
  assert.equal(data.campaigns.length,5);assert.equal(data.campaigns.reduce((s,c)=>s+c.budget,0),100);

@@ -27,7 +27,7 @@ SuperBrain screen: house memory the copy, outbound, and agents read before they 
 | Desk | Site | SuperBrain project |
 |---|---|---|
 | Cloud Forest | [traincloudforest.com](https://traincloudforest.com) | `dojo` |
-| DojoZeus | [dojozeus.com](https://dojozeus.com) | `lyceum` (peer brand of Lyceum; school ops also `dojo`) |
+| DojoZeus | [dojozeus.com](https://dojozeus.com) | `lyceum` (peer brand of Lyceum; Cloud Forest operations use `dojo`) |
 | Lyceum | [joinlyceum.com](https://joinlyceum.com) | `lyceum` |
 | RigBoss | [rigboss.app](https://rigboss.app) | `rigboss` |
 | Mech Correct | [mechcorrect.com](https://mechcorrect.com) | `shopboss` |
@@ -47,7 +47,7 @@ SuperBrain screen: house memory the copy, outbound, and agents read before they 
 
 - Score tests on **conversations and closes**. Clicks without a buyer are a kill.
 - Agents draft. A human approves outbound.
-- **DojoZeus:** founding **$59.99/mo × first 35**, then **$149**. Not $99 / 20 / $169. Never headline “AI for your dojo.” Peer brand of Lyceum — zero Lyceum traces on dojozeus.com public surfaces. Combat Factory (`thecombatfactory.com`) is the concierge/beta school.
+- **DojoZeus:** founding **$99/mo × first 20**, then **$169**. Never headline “AI for your dojo.” Peer brand of Lyceum. zero Lyceum traces on dojozeus.com public surfaces. Combat Factory (`thecombatfactory.com`) is the concierge/beta school.
 - **Lyceum:** Starter $49+5%, Pro $99+2%, Academy $249+0%. Never call Starter capped, limited, or a dead end. Never sneer at Kajabi. Every traffic count is **Real vs Ours**. Week to 2026-09-05: 85 real visitors, 0 real Lyra questions. Kajabi compare (`/vs/kajabi`) is live.
 - **RigBoss:** public catalog is **rigboss.app** / **rigboss.io** — “the operating system for every tractor.” App is **app.rigboss.app**. Never say we replace the ELD.
 - **Mech Correct:** wedge is Tekmetric-class UX + FullBay leak-hunting + AI advisor. Demo on a photo of a leak. CarSignal launched Aug 17 2026 at $200/mo.

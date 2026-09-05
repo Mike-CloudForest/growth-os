@@ -21,14 +21,14 @@ Live visual desk (humans): https://mike-cloudforest.github.io/
 ## Companies and SuperBrain projects
 
 - Cloud Forest — traincloudforest.com — SuperBrain `dojo`
-- DojoZeus — dojozeus.com — SuperBrain `lyceum` (peer brand of Lyceum; school ops also `dojo`)
+- DojoZeus dojozeus.com SuperBrain `lyceum` (peer brand of Lyceum; Cloud Forest operations use `dojo`)
 - Lyceum — joinlyceum.com — SuperBrain `lyceum`
 - RigBoss — rigboss.app — SuperBrain `rigboss`
 - Mech Correct — mechcorrect.com — SuperBrain `shopboss`
 
 ## Hard rules
 
-DojoZeus: founding $59.99/mo × first 35 schools, then $149. Not $99 / 20 / $169. Never headline "AI for your dojo." Zero Lyceum traces on dojozeus.com public surfaces. Combat Factory (thecombatfactory.com) is the concierge/beta school. Do not name it as a logo-wall customer.
+DojoZeus: founding $99/mo × first 20 schools, then $169. Never headline "AI for your dojo." Zero Lyceum traces on dojozeus.com public surfaces. Combat Factory (thecombatfactory.com) is the concierge/beta school. Do not name it as a logo-wall customer.
 
 Lyceum: Starter $49+5%, Pro $99+2%, Academy $249+0%. Never call Starter capped, limited, or a dead end. Never sneer at Kajabi. Every traffic count is Real vs Ours. Week to 2026-09-05: 85 real visitors, 0 real Lyra questions. Kajabi compare (/vs/kajabi) is live.
 

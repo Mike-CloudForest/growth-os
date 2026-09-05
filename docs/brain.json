@@ -112,8 +112,8 @@
       "id": "sb-dz-2",
       "businessId": "dojozeus",
       "project": "lyceum",
-      "title": "Founding 35 at $59.99, then $149",
-      "body": "Founding: $59.99/mo or $599/yr, first 35 schools, rate locked while continuously subscribed. Standard: $149/mo or $1,490/yr. Zeus runs the office. Ares tutors. DojoZeus schools are all-inclusive and rank as Academy for plan gates. Talk to owners, not instructors who cannot buy.",
+      "title": "Founding 20 at $99, then $169",
+      "body": "Founding: $99/mo or $990/yr, first 20 schools, rate locked while continuously subscribed. Standard: $169/mo or $1,690/yr. No setup fee. The 14-day trial requires a card. Pricing verified against live Stripe on September 5, 2026; owner decision July 25 supersedes July 20. Zeus runs the office. Ares tutors. DojoZeus schools are all-inclusive and rank as Academy for plan gates. Talk to owners, not instructors who cannot buy.",
       "kind": "decision",
       "date": "2026-07-20",
       "tags": [
@@ -124,7 +124,7 @@
     {
       "id": "sb-dz-3",
       "businessId": "dojozeus",
-      "project": "dojo",
+      "project": "lyceum",
       "title": "You teach. It runs.",
       "body": "Stack-replacement produced owner conversations. “AI for your dojo” produced instructor clicks and zero buyers. Open demos on the at-risk list, not the belt editor. Two schools posting a front-desk hiring ad is the trigger this week.",
       "kind": "eval",
@@ -137,7 +137,7 @@
     {
       "id": "sb-dz-4",
       "businessId": "dojozeus",
-      "project": "dojo",
+      "project": "lyceum",
       "title": "DojoZeus bans",
       "body": "Banned: AI for your dojo as the headline, disrupt, ninja software, replace your ELD, sensei bot. Built for the mat, not the desk. Every belt. Every dollar. Every student. One brain.",
       "kind": "ban",
@@ -163,9 +163,9 @@
     {
       "id": "sb-dz-6",
       "businessId": "dojozeus",
-      "project": "dojo",
+      "project": "lyceum",
       "title": "Mindbody year-lock is the objection",
-      "body": "Owners do not object to the fee. They object to “we just signed for a year.” Sit beside them until the contract ends. Founding $59.99 holds if they claim a seat now. Zen Planner public outages are a moment to engage commenters, not dunk.",
+      "body": "Owners do not object to the fee. They object to “we just signed for a year.” Sit beside them until the contract ends. Founding eligibility depends on availability. The $99 monthly rate stays locked while continuously subscribed. Zen Planner public outages are a moment to engage commenters, not dunk.",
       "kind": "competitor",
       "date": "2026-09-04",
       "tags": [

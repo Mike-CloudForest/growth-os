@@ -19,7 +19,7 @@ function renderMetrics() {
   const t = totals(records());
   $('#metrics').innerHTML = [['Real visits',t.visits],['Conversations',t.conversations],['Bookings / trials',`${t.bookings} / ${t.trials}`],['Paid customers',t.customers],['Recorded revenue',money(t.revenue)]].map(([label,value]) => `<div class="metric"><span>${label}</span><strong>${records().length ? value : '—'}</strong></div>`).join('');
   const spent = totalSpend(state.records);
-  $('#budget-status').textContent = `${money(spent)} recorded · ${money(Math.max(0,100-spent))} remaining`;
+  $('#budget-status').textContent = `${money(spent)} recorded in this browser · $40 approved pilot cap · $60 on hold. Actual delivery spend requires provider verification.`;
   $('#budget-bar').style.width = `${Math.min(100,spent)}%`;
   $('#budget-bar').style.background = spent >= 100 ? 'var(--amber)' : 'var(--lime)';
 }
@@ -100,7 +100,7 @@ document.addEventListener('submit',event=>{
   }catch(error){notice(error.message);}
 });
 try {
-  const response=await fetch('./campaigns-v01.json');if(!response.ok)throw new Error('Campaign data could not be loaded.');data=await response.json();
+  const response=await fetch('./campaigns-v02.json');if(!response.ok)throw new Error('Campaign data could not be loaded.');data=await response.json();
   try{const draft=localStorage.getItem(POLICY_KEY);if(draft)policy=validatePolicy(JSON.parse(draft));}catch{notice('The saved spending draft could not be read. Defaults loaded with spending paused.');}
   try{const stored=localStorage.getItem(KEY);if(stored)state=validateState(JSON.parse(stored),data.campaigns);}
   catch{storageReady=false;notice('Saved data could not be read. It has been preserved in browser storage. Restore a valid backup before saving new work.');}

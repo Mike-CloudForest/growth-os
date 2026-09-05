@@ -11,6 +11,7 @@ import type {
   Signal,
 } from "./types";
 import { AGENTS, CONTENT, INSIGHTS, SEARCH_ASSETS, SIGNALS, TESTS } from "./seed";
+import { reconcileOffers } from "./offer-migration";
 
 type GrowthState = {
   selected: FilterId;
@@ -112,7 +113,7 @@ export const useGrowthStore = create<GrowthState>()(
       name: "growth-os-v2",
       skipHydration: true,
       merge: (persisted, current) => {
-        const p = (persisted ?? {}) as Partial<GrowthState>;
+        const p = reconcileOffers((persisted ?? {}) as Partial<GrowthState>);
         return {
           ...current,
           ...p,

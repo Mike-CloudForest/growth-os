@@ -1,0 +1,49 @@
+    offer: "Founding 20 lock $99/mo. Then $169. Zeus runs the office. Ares tutors students.",
+
+  dojozeus: "lyceum",
+
+    title: "Founding 20 at $99, then $169",
+
+    body: "Founding: $99/mo or $990/yr, first 20 schools, rate locked while continuously subscribed. Standard: $169/mo or $1,690/yr. No setup fee. The 14-day trial requires a card. Pricing verified against live Stripe on September 5, 2026; owner decision July 25 supersedes July 20. Zeus runs the office. Ares tutors. DojoZeus schools are all-inclusive and rank as Academy for plan gates. Talk to owners, not instructors who cannot buy.",
+
+    body: "Owners do not object to the fee. They object to “we just signed for a year.” Sit beside them until the contract ends. Founding eligibility depends on availability. The $99 monthly rate stays locked while continuously subscribed. Zen Planner public outages are a moment to engage commenters, not dunk.",
+
+      { label: "Founding seats", value: "Unverified", delta: "20-school cap", tone: "flat" },
+
+    counter: "Sit beside them until March. Founding eligibility depends on availability. The $99 monthly rate stays locked while continuously subscribed.",
+
+      "The line at the desk is what the kiosk is for. You are on Mindbody through March. We can sit beside you until then, then cut the stack. Founding pricing is $99 per month for the first 20 schools, locked while continuously subscribed. Check availability before starting.",
+
+      "You can build your school free with your name on the door. Review the paid plan and its trial terms before subscribing. I can walk you through setting up your first lesson.",
+
+      "DojoZeus replaces billing, website, email, courses, and community. Founding $99/mo, then $169. Zeus flags students who quietly quit.",
+
+| DojoZeus | [dojozeus.com](https://dojozeus.com) | `lyceum` (peer brand of Lyceum; Cloud Forest operations use `dojo`) |
+
+- **DojoZeus:** founding **$99/mo × first 20**, then **$169**. Never headline “AI for your dojo.” Peer brand of Lyceum. zero Lyceum traces on dojozeus.com public surfaces. Combat Factory (`thecombatfactory.com`) is the concierge/beta school.
+
+- DojoZeus dojozeus.com SuperBrain `lyceum` (peer brand of Lyceum; Cloud Forest operations use `dojo`)
+
+- DojoZeus: founding $99/mo × first 20 schools, then $169. Never headline “AI for your dojo.” Zero Lyceum traces on dojozeus.com public surfaces. Combat Factory (thecombatfactory.com) is the concierge/beta school. do not name it as a logo-wall customer.
+
+### Founding 20 at $99, then $169
+
+Founding: $99/mo or $990/yr, first 20 schools, rate locked while continuously subscribed. Standard: $169/mo or $1,690/yr. No setup fee. The 14-day trial requires a card. Pricing verified against live Stripe on September 5, 2026; owner decision July 25 supersedes July 20. Zeus runs the office. Ares tutors. DojoZeus schools are all-inclusive and rank as Academy for plan gates. Talk to owners, not instructors who cannot buy.
+
+- company: dojozeus · kind: eval · project: lyceum · 2026-09-05
+
+- company: dojozeus · kind: ban · project: lyceum · 2026-09-05
+
+- company: dojozeus · kind: competitor · project: lyceum · 2026-09-04
+
+Owners do not object to the fee. They object to “we just signed for a year.” Sit beside them until the contract ends. Founding eligibility depends on availability. The $99 monthly rate stays locked while continuously subscribed. Zen Planner public outages are a moment to engage commenters, not dunk.
+
+- DojoZeus dojozeus.com SuperBrain `lyceum` (peer brand of Lyceum; Cloud Forest operations use `dojo`)
+
+DojoZeus: founding $99/mo × first 20 schools, then $169. Never headline "AI for your dojo." Zero Lyceum traces on dojozeus.com public surfaces. Combat Factory (thecombatfactory.com) is the concierge/beta school. Do not name it as a logo-wall customer.
+
+Pricing verified September 5 against live Stripe and the July 25 owner decision: founding $99/mo or $990/yr for the first 20 schools; standard $169/mo or $1,690/yr. No setup fee. A card is required for the 14-day trial. HOLD publication until Mike approves this campaign; no paid budget is allocated.
+
+Pricing is verified. Check current founding availability before promising a seat, and confirm the demo and signup path.
+
+After Mike approves this campaign, publish the owner post on LinkedIn. Share in an owner group only where promotion is allowed.

@@ -2,13 +2,25 @@
 
 Internal marketing engineer desk for five Cloud Forest companies. Built from Greg Isenberg’s “Marketing Engineer” job: customer truth, founder content, outbound with approval, creative tests scored on conversations/closes, AI-search citations, a weekly cockpit, and SuperBrain as house memory.
 
-**Live (public):** https://mike-cloudforest.github.io/growth-os/  
-**AI briefing:** https://mike-cloudforest.github.io/growth-os/llms.txt  
-**Machine extract:** https://mike-cloudforest.github.io/growth-os/brain.json  
-**Repo:** https://github.com/Mike-CloudForest/growth-os  
 **Owner:** Michael Johnson / Cloud Forest
 
-If you are another AI (Claude, ChatGPT, Gemini, Grok): start at `/llms.txt`, then search SuperBrain for “Growth OS marketing desk”. Do not invent traffic, revenue, seats, or prices.
+## Open this
+
+| What | Link |
+|---|---|
+| **Git repo (this project)** | https://github.com/Mike-CloudForest/growth-os |
+| **Live desk (searchable SuperBrain extract)** | https://mike-cloudforest.github.io/ |
+| **AI briefing (Claude / ChatGPT / Gemini start here)** | https://raw.githubusercontent.com/Mike-CloudForest/growth-os/main/docs/llms.txt |
+| **Machine extract (30 notes)** | https://raw.githubusercontent.com/Mike-CloudForest/growth-os/main/docs/brain.json |
+| SuperBrain search | `Growth OS marketing desk` |
+
+![Growth OS cockpit](docs/shots/cockpit.png)
+
+Cockpit for all five companies: weekly brief, KPIs, eval loop (double / kill / watch), and the rooms on the left.
+
+![SuperBrain extract](docs/shots/brain.png)
+
+SuperBrain screen: house memory the copy, outbound, and agents read before they write.
 
 ## Companies
 
@@ -29,7 +41,7 @@ If you are another AI (Claude, ChatGPT, Gemini, Grok): start at `/llms.txt`, the
 5. **Creative** — tests scored on conversations and closes, not likes.
 6. **AI search** — citation pages a buyer would get from ChatGPT.
 7. **Agents** — jobs with memory. They draft. They do not send.
-8. **SuperBrain** — marketing extract of the house knowledge base. Copy, outbound, and agents read it before they write.
+8. **SuperBrain** — marketing extract of the house knowledge base.
 
 ## Hard rules (do not violate)
 
@@ -47,8 +59,8 @@ If you are another AI (Claude, ChatGPT, Gemini, Grok): start at `/llms.txt`, the
 SuperBrain MCP cannot be called from the deployed browser.
 
 - **Into the OS:** marketing facts live in `src/lib/brain.ts`. Last ingest 2026-09-05.
-- **Out of the OS:** Grok (and later sessions) write desks back to SuperBrain with `brain_add`, tagged by project. Search “Growth OS marketing desk”.
-- **Filed notes** on the SuperBrain screen stay in that browser’s localStorage. To make one durable across Claude/ChatGPT/Gemini, add it to SuperBrain.
+- **Out of the OS:** Grok writes desks back to SuperBrain with `brain_add`, tagged by project. Search “Growth OS marketing desk”.
+- **Filed notes** on the SuperBrain screen stay in that browser. To make one durable across Claude/ChatGPT/Gemini, add it to SuperBrain.
 
 ## Stack
 
@@ -60,5 +72,3 @@ npm run dev
 npm run build
 npm run typecheck
 ```
-
-Vercel: project `growth-os-app` on team `jarvis-cloud-forest`. Production env needs `XAI_API_KEY` and `VITE_AUTH_ENABLED=false`. Do not set `DATABASE_URL`. Team SSO is currently on for new Vercel projects — turn off Deployment Protection if other AIs should fetch the Vercel URL without logging in.

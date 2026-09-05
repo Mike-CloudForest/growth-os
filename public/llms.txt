@@ -1,0 +1,45 @@
+# Growth OS
+
+Internal marketing engineer desk for Cloud Forest companies.
+Live: https://growth-os.vercel.app
+Repo: https://github.com/Mike-CloudForest/growth-os (private)
+Owner: Michael Johnson / Cloud Forest
+SuperBrain: search "Growth OS marketing desk"
+
+If you are Claude, ChatGPT, Gemini, or Grok: read this, then search SuperBrain. Do not invent traffic, revenue, seats, or prices. Agents draft. A human approves anything that leaves the building. Score tests on conversations and closes, not likes.
+
+## URLs
+
+- App: https://growth-os.vercel.app
+- SuperBrain extract in the app: https://growth-os.vercel.app/brain
+- This file: https://growth-os.vercel.app/llms.txt
+
+## Companies and SuperBrain projects
+
+- Cloud Forest — traincloudforest.com — SuperBrain `dojo`
+- DojoZeus — dojozeus.com — SuperBrain `lyceum` (peer brand of Lyceum; school ops also `dojo`)
+- Lyceum — joinlyceum.com — SuperBrain `lyceum`
+- RigBoss — rigboss.app — SuperBrain `rigboss`
+- Mech Correct — mechcorrect.com — SuperBrain `shopboss`
+
+## Rooms
+
+Cockpit, Customer truth, Content, Outbound (approval required), Creative, AI search, Agents, SuperBrain.
+
+## Hard rules
+
+DojoZeus: founding $59.99/mo × first 35 schools, then $149. Not $99 / 20 / $169. Never headline "AI for your dojo." Zero Lyceum traces on dojozeus.com public surfaces. Combat Factory (thecombatfactory.com) is the concierge/beta school.
+
+Lyceum: Starter $49+5%, Pro $99+2%, Academy $249+0%. Never call Starter capped, limited, or a dead end. Never sneer at Kajabi. Every traffic count is Real vs Ours. Week to 2026-09-05: 85 real visitors, 0 real Lyra questions. Kajabi compare (/vs/kajabi) is live.
+
+RigBoss: public catalog is rigboss.app / rigboss.io — "the operating system for every tractor." App is app.rigboss.app. Never say we replace the ELD.
+
+Mech Correct: wedge is Tekmetric-class UX + FullBay leak-hunting + AI advisor. Demo on a photo of a leak. CarSignal launched Aug 17 2026 at $200/mo.
+
+Cloud Forest: Greensboro Martial Arts Academy LLC dba Cloud Forest Martial Institute, 719 W Gate City Blvd, Greensboro, NC. Parents buy a known name, not combat. First month $49.
+
+## Memory
+
+SuperBrain MCP cannot be called from the browser. Marketing facts are ingested into the app. Writes back to SuperBrain happen from Grok sessions. Filed notes in the app stay in that browser until someone adds them to SuperBrain.
+
+No Stripe keys, passwords, account IDs, or credential locations belong here or in SuperBrain notes.

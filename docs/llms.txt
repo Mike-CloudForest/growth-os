@@ -1,8 +1,8 @@
 # Growth OS
 
 Internal marketing engineer desk for Cloud Forest companies.
-Live (public): https://mike-cloudforest.github.io/growth-os/
-Machine extract: https://mike-cloudforest.github.io/growth-os/brain.json
+Live (public): https://mike-cloudforest.github.io/
+Machine extract: https://mike-cloudforest.github.io/brain.json
 Repo: https://github.com/Mike-CloudForest/growth-os
 Owner: Michael Johnson / Cloud Forest
 SuperBrain: search "Growth OS marketing desk"

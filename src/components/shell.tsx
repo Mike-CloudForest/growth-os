@@ -117,6 +117,9 @@ function SidebarBody({ onPick }: { onPick?: () => void }) {
       <div className="mt-6 min-h-0 flex-1 overflow-y-auto">
         <p className="mb-2 px-1 text-xs font-medium tracking-wider text-subtle uppercase">Systems</p>
         <NavLinks onPick={onPick} />
+        <a href="/sprint/" className="mt-3 flex min-h-11 items-center rounded-md bg-primary px-3 text-sm font-medium text-primary-foreground">
+          This week's campaigns ↗
+        </a>
       </div>
       <p className="pt-6 px-1 text-xs leading-relaxed text-subtle">
         Five companies. One operating system. SuperBrain remembers.

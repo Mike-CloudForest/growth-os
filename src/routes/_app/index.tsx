@@ -39,6 +39,10 @@ function Cockpit() {
 
   return (
     <div>
+      <a href="/sprint/" className="mb-6 block rounded-xl border border-border bg-card p-5">
+        <strong>This week's campaigns: September 5 to 11</strong>
+        <p className="mt-2 text-sm text-muted-foreground">Open the campaign drafts, tagged links, daily actions, and evidence log. The ad budget is $100 total. The legacy briefing below contains seeded figures, not connected live analytics.</p>
+      </a>
       <PageHeader
         kicker="System 6 · Growth cockpit"
         title="What changed this week, and what to do about it."

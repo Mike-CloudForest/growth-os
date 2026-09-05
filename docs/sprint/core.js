@@ -7,7 +7,7 @@ export function taggedUrl(campaign, asset) {
   if (url.protocol !== 'https:') throw new Error('Campaign destinations must use HTTPS.');
   url.searchParams.set('utm_source', asset.channel);
   url.searchParams.set('utm_medium', asset.medium);
-  url.searchParams.set('utm_campaign', `growth_20260905_${campaign.id}`);
+  url.searchParams.set('utm_campaign', asset.utmCampaign ?? `growth_20260905_${campaign.id}`);
   url.searchParams.set('utm_content', asset.id);
   return url.href;
 }

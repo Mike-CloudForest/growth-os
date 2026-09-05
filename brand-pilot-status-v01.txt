@@ -1,0 +1,5 @@
+The $25 lifetime pilot is published and Meta showed Processing after reload. Ends September 8 at 3:52 PM Eastern. Verify delivery and signup results before increasing spend.
+Published; Meta Processing verified September 5. Delivery and customer results are not yet verified.
+The $20 lifetime pilot is published and Meta showed Processing after reload. Ends September 8 at 3:52 PM Eastern. Verify delivery and signup results before increasing spend.
+Published; Meta Processing verified September 5. Delivery and customer results are not yet verified.
+Brand Pages created September 5: Lyceum https://www.facebook.com/profile.php?id=61594221926196 ; DojoZeus https://www.facebook.com/profile.php?id=61594283693591 . Both paid pilots published; Meta Processing verified after reload. Lyceum $20 lifetime, DojoZeus $25 lifetime, both end September 8 at 3:52 PM Eastern. Current customer results and spend remain unverified. DojoZeus paid-office uses utm_campaign=growth_20260905_dz-school-owner; map it to dz-owner in reports. Historical Cloud Forest launch log predates the $85 allocation; use allocations-v02.json for current authorization.

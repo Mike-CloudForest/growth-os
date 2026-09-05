@@ -43,3 +43,7 @@ No Stripe keys, passwords, account IDs, or credential locations belong here or i
 Buyer-segment drafts and test desk: https://mike-cloudforest.github.io/sprint/segments.html
 Implementation plan: https://mike-cloudforest.github.io/sprint/segment-playbook-v01.md
 Seven audience hypotheses; evidence and results are manual and start empty. No new launch or spend is authorized by these drafts.
+
+Current paid authorization: Cloud Forest $40, Lyceum $20, DojoZeus $25 total campaign caps; $15 unallocated within the $100 limit. See https://mike-cloudforest.github.io/sprint/allocations-v02.json for setup status. No recurring increase is authorized.
+
+Brand Pages created September 5: Lyceum https://www.facebook.com/profile.php?id=61594221926196 ; DojoZeus https://www.facebook.com/profile.php?id=61594283693591 . Both paid pilots published; Meta Processing verified after reload. Lyceum $20 lifetime, DojoZeus $25 lifetime, both end September 8 at 3:52 PM Eastern. Current customer results and spend remain unverified. DojoZeus paid-office uses utm_campaign=growth_20260905_dz-school-owner; map it to dz-owner in reports. Historical Cloud Forest launch log predates the $85 allocation; use allocations-v02.json for current authorization.

@@ -1,0 +1,29 @@
+{
+  "date": "2026-09-05",
+  "totalLimitUSD": 100,
+  "allocatedUSD": 85,
+  "unallocatedUSD": 15,
+  "recurringAuthorized": false,
+  "allocations": [
+    {
+      "company": "Cloud Forest",
+      "lifetimeCapUSD": 40,
+      "status": "Previously verified active; current spend not checked"
+    },
+    {
+      "company": "Lyceum",
+      "lifetimeCapUSD": 20,
+      "status": "Published; Meta Processing verified after reload on September 5. Delivery and spend not yet verified.",
+      "page": "https://www.facebook.com/profile.php?id=61594221926196",
+      "endAt": "2026-09-08T15:52:00-04:00"
+    },
+    {
+      "company": "DojoZeus",
+      "lifetimeCapUSD": 25,
+      "status": "Published; Meta Processing verified after reload on September 5. Delivery and spend not yet verified.",
+      "page": "https://www.facebook.com/profile.php?id=61594283693591",
+      "endAt": "2026-09-08T15:52:00-04:00"
+    }
+  ],
+  "note": "Supersedes the earlier $60 hold. A willingness to increase the weekly budget is not an approved increase or recurring charge."
+}

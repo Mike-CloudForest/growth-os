@@ -2,13 +2,15 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
 import { initialState, taggedUrl, transition, validateState, validateRecord, totalSpend, recommendation } from '../public/sprint/core.js';
-const data=JSON.parse(readFileSync(new URL('../public/sprint/campaigns-v02.json',import.meta.url),'utf8'));
+const data=JSON.parse(readFileSync(new URL('../public/sprint/campaigns-v03.json',import.meta.url),'utf8'));
 const record={id:'a',campaignId:'cf-free-visit',date:'2026-09-05',evidence:'CRM daily export',visits:10,conversations:1,bookings:1,trials:0,customers:0,ours:3,spend:12.5,revenue:0};
 test('five companies, authorized budget, unique campaign links, correct domains',()=>{
- assert.equal(data.campaigns.length,5);assert.equal(data.campaigns.reduce((s,c)=>s+c.budget,0),100);
+ assert.equal(data.campaigns.length,5);assert.equal(data.campaigns.reduce((s,c)=>s+c.budget,0)+data.unallocatedUSD,100);
  const domains=['traincloudforest.com','dojozeus.com','joinlyceum.com','rigboss.app','mechcorrect.com'];const urls=new Set();
  data.campaigns.forEach((c,i)=>c.assets.forEach(a=>{const u=new URL(taggedUrl(c,a));assert.equal(u.hostname,domains[i]);assert.ok(u.searchParams.get('utm_campaign'));assert.ok(!urls.has(u.href));urls.add(u.href);}));
- assert.match(data.campaigns[1].blocker,/HOLD/);
+ assert.equal(data.campaigns[1].budget,25);assert.equal(data.campaigns[2].budget,20);assert.equal(data.unallocatedUSD,15);
+ const dojo=data.campaigns.find(c=>c.id==='dz-owner');
+ assert.equal(new URL(taggedUrl(dojo,dojo.assets.find(a=>a.id==='paid-office'))).searchParams.get('utm_campaign'),'growth_20260905_dz-school-owner');
 });
 test('approval and publication cannot be inferred',()=>{
  const s={stage:'draft',checked:false,proof:''};assert.throws(()=>transition(s,'live',0));assert.throws(()=>transition({...s,checked:true},'live',0));

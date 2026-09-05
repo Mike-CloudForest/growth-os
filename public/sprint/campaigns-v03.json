@@ -1,0 +1,318 @@
+{
+  "version": 3,
+  "start": "2026-09-05",
+  "end": "2026-09-11",
+  "budget": 100,
+  "campaigns": [
+    {
+      "id": "cf-free-visit",
+      "company": "Cloud Forest",
+      "mark": "CF",
+      "priority": 1,
+      "audience": "Greensboro parents looking for a first martial arts class; local adults interested in Tai Chi.",
+      "offer": "Book a free class visit. Choose a class before arriving.",
+      "destination": "https://traincloudforest.com/visit",
+      "conversion": "A reserved visit that becomes a paid enrollment",
+      "goal": "5 booked visits and 1 paid enrollment by September 11 (target)",
+      "budget": 40,
+      "blocker": "Verify the booking confirmation and follow-up owner before activating ads. Allow for Labor Day schedule changes on September 7.",
+      "sources": [
+        "https://traincloudforest.com/",
+        "https://traincloudforest.com/visit"
+      ],
+      "tasks": [
+        {
+          "day": 0,
+          "text": "Check class availability and the visit form, including the confirmation. Confirm the September 7 holiday schedule."
+        },
+        {
+          "day": 1,
+          "text": "Approve the parent post. Publish on the school's Facebook page and Google Business profile. Use each channel's tagged link."
+        },
+        {
+          "day": 2,
+          "text": "Check opted-in inquiries from the last 30 days. Offer each person a specific available class. Record the reply in the school CRM."
+        },
+        {
+          "day": 3,
+          "text": "Review the first $40 of Meta delivery. Keep spending paused if booking or attribution is broken."
+        },
+        {
+          "day": 4,
+          "text": "Publish the adult Tai Chi post. Confirm every visit by the next business day."
+        },
+        {
+          "day": 6,
+          "text": "Record attended visits and paid enrollments from the school CRM. Decide whether to repeat the campaign."
+        }
+      ],
+      "assets": [
+        {
+          "id": "parent",
+          "channel": "facebook",
+          "medium": "organic_social",
+          "title": "A first class for your child",
+          "body": "Your child can try a class at Cloud Forest before you decide to enroll. Beginners are welcome, and parents can sit beside the training floor.\n\nWe're at 719 W Gate City Blvd in Greensboro. Pick a class, complete the visitor form, and come ten minutes early in comfortable clothes. The visit is free.\n\nReserve a visit:"
+        },
+        {
+          "id": "local",
+          "channel": "google_business",
+          "medium": "organic",
+          "title": "Come try a class in Greensboro",
+          "body": "Thinking about martial arts for yourself or your child? Come take a class at Cloud Forest. We welcome beginners, and your first visit is free.\n\n719 W Gate City Blvd, Greensboro. Pick an available class and complete the visitor form before you come:"
+        },
+        {
+          "id": "taichi",
+          "channel": "facebook",
+          "medium": "organic_social",
+          "title": "Try Tai Chi",
+          "body": "You can start Tai Chi with no previous training. Come to Cloud Forest in Greensboro, take a beginner-friendly class, and see whether you want to keep practicing.\n\nCheck the schedule and reserve your free visit:"
+        },
+        {
+          "id": "paid-parent",
+          "channel": "facebook",
+          "medium": "paid_social",
+          "title": "Reserve a free class visit",
+          "body": "Try a martial arts class at Cloud Forest in Greensboro. Beginners are welcome. Parents can sit beside the training floor.\n\nChoose a class and reserve your free visit:"
+        }
+      ],
+      "followup": "For an opted-in inquiry, after checking availability: Hi [first name], this is Mike at Cloud Forest. We have room in [class] on [day] at [time]. Would that work for your first visit?",
+      "publicationStatus": "Previously verified Active with a $40 lifetime cap. Current delivery and spend have not been rechecked."
+    },
+    {
+      "id": "dz-owner",
+      "company": "DojoZeus",
+      "mark": "DZ",
+      "priority": 2,
+      "audience": "Martial arts school owners doing billing, attendance, and follow-up in separate tools.",
+      "offer": "See the school software and decide whether it fits your school.",
+      "destination": "https://dojozeus.com/",
+      "conversion": "An owner conversation that becomes a paid school",
+      "goal": "3 qualified owner conversations and 1 trial started by September 11 (target)",
+      "budget": 25,
+      "blocker": "The $25 lifetime pilot is published and Meta showed Processing after reload. Ends September 8 at 3:52 PM Eastern. Verify delivery and signup results before increasing spend.",
+      "sources": [
+        "https://dojozeus.com/",
+        "https://mike-cloudforest.github.io/llms.txt"
+      ],
+      "tasks": [
+        {
+          "day": 0,
+          "text": "Pricing is verified. Check current founding availability before promising a seat, and confirm the demo and signup path."
+        },
+        {
+          "day": 1,
+          "text": "Record a short demo starting with the list of absent students and the next follow-up action. Use demo data."
+        },
+        {
+          "day": 2,
+          "text": "After Mike approves this campaign, publish the owner post on LinkedIn. Share in an owner group only where promotion is allowed."
+        },
+        {
+          "day": 4,
+          "text": "Follow up once with owners who replied. Ask which office task takes the most time; show that task in the demo."
+        },
+        {
+          "day": 6,
+          "text": "Record owner replies, completed demos, trials, and paid schools with source records."
+        }
+      ],
+      "assets": [
+        {
+          "id": "owner",
+          "channel": "linkedin",
+          "medium": "organic_social",
+          "title": "For the owner doing the office work",
+          "body": "After class, there's still tuition to check and a student who hasn't been back in two weeks.\n\nDojoZeus keeps attendance, tuition, waivers, and your school's website together. Zeus reads the school records and helps you work through the office tasks.\n\nIf you run a martial arts school, take a look at the tour:"
+        },
+        {
+          "id": "demo",
+          "channel": "facebook",
+          "medium": "organic_social",
+          "title": "Start with the absent students",
+          "body": "The first screen I'd show a school owner is the list of students who have stopped coming. That's someone to check on before another month passes.\n\nDojoZeus brings attendance and school records together so you can see who needs a follow-up. Here's the product tour:"
+        },
+        {
+          "id": "paid-office",
+          "channel": "facebook",
+          "medium": "paid_social",
+          "title": "School records in one place",
+          "body": "Run a martial arts school? DojoZeus brings attendance, tuition, waivers, and your school website together. Zeus helps you work through the office tasks.\n\nSee how it works:",
+          "utmCampaign": "growth_20260905_dz-school-owner"
+        }
+      ],
+      "followup": "For an owner who has replied: Which takes more of your time right now, tracking tuition or following up with students? I can show you that part of DojoZeus first.",
+      "page": "https://www.facebook.com/profile.php?id=61594283693591",
+      "publicationStatus": "Published; Meta Processing verified September 5. Delivery and customer results are not yet verified."
+    },
+    {
+      "id": "ly-first-school",
+      "company": "Lyceum",
+      "mark": "LY",
+      "priority": 3,
+      "audience": "Teachers with an existing lesson, workshop, or course and people who already ask to learn from them.",
+      "offer": "Build a school free; see a working example before signing up.",
+      "destination": "https://joinlyceum.com/",
+      "conversion": "A verified signup that builds a school and starts a paid plan",
+      "goal": "3 verified signups and 1 school with a lesson published by September 11 (target)",
+      "budget": 20,
+      "blocker": "The $20 lifetime pilot is published and Meta showed Processing after reload. Ends September 8 at 3:52 PM Eastern. Verify delivery and signup results before increasing spend.",
+      "sources": [
+        "https://joinlyceum.com/",
+        "https://northlight.joinlyceum.com/"
+      ],
+      "tasks": [
+        {
+          "day": 0,
+          "text": "Check the live school example and the signup flow. Review the existing email delivery logs without sending a new broadcast."
+        },
+        {
+          "day": 2,
+          "text": "Publish the teacher post on Mike's LinkedIn with a tagged link. Demonstrate one lesson and its tutor."
+        },
+        {
+          "day": 3,
+          "text": "Offer help to teachers who reply. Start with one lesson they already have."
+        },
+        {
+          "day": 5,
+          "text": "Publish the ownership post. Record verified signups separately from studios that publish a lesson."
+        },
+        {
+          "day": 6,
+          "text": "Check the first school activity and any plan subscriptions. Split Real and Ours in every count."
+        }
+      ],
+      "assets": [
+        {
+          "id": "lesson",
+          "channel": "linkedin",
+          "medium": "organic_social",
+          "title": "Start with one lesson you already teach",
+          "body": "If you teach a workshop, you already have somewhere to start an online school. Put one lesson on Lyceum and see how it feels from the student's side.\n\nYour students get the lesson, a place to ask questions, and a tutor that answers from your material. You keep your domain, member list, and Stripe account.\n\nYou can build free before choosing a paid plan:"
+        },
+        {
+          "id": "ownership",
+          "channel": "facebook",
+          "medium": "organic_social",
+          "title": "See a school before building yours",
+          "body": "Lyceum has a working ceramics school you can look through before signing up. See the classroom and how lessons are organized, then think about the course you already teach.\n\nThe example school is linked from the homepage. You can build your own studio free:"
+        },
+        {
+          "id": "paid-lesson",
+          "channel": "facebook",
+          "medium": "paid_social",
+          "title": "Start with a lesson you already teach",
+          "body": "Build an online school under your own name. Put your lessons and community together on Lyceum, with a tutor that answers from your material.\n\nStart building free:"
+        }
+      ],
+      "followup": "For a teacher who has replied: What lesson do you already have ready? Send me the topic and I'll help you choose a first step in Lyceum.",
+      "page": "https://www.facebook.com/profile.php?id=61594221926196",
+      "publicationStatus": "Published; Meta Processing verified September 5. Delivery and customer results are not yet verified."
+    },
+    {
+      "id": "rb-owner-op",
+      "company": "RigBoss",
+      "mark": "RB",
+      "priority": 4,
+      "audience": "Owner-operators handling their own trucking paperwork.",
+      "offer": "See RigBoss for the business work around the truck.",
+      "destination": "https://rigboss.app/",
+      "conversion": "An owner-operator conversation that becomes a paid subscription",
+      "goal": "2 qualified conversations and 1 trial started by September 11 (target)",
+      "budget": 0,
+      "blocker": "Verify the public catalog and its signup link. Keep app.rigboss.app as the product app. Do not promise replacement of an ELD.",
+      "sources": [
+        "https://rigboss.app/"
+      ],
+      "tasks": [
+        {
+          "day": 1,
+          "text": "Check the public-to-app signup handoff. Capture an IFTA workflow using demo records."
+        },
+        {
+          "day": 3,
+          "text": "Publish the owner-operator post on Mike's LinkedIn. Use an owner-operator community only if its rules allow product posts."
+        },
+        {
+          "day": 5,
+          "text": "Answer actual replies with the relevant workflow. Track qualified conversations separately from clicks."
+        },
+        {
+          "day": 6,
+          "text": "Reconcile trials and paid subscriptions against product records."
+        }
+      ],
+      "assets": [
+        {
+          "id": "paperwork",
+          "channel": "linkedin",
+          "medium": "organic_social",
+          "title": "The paperwork after the drive",
+          "body": "The driving is done. The fuel receipts and business paperwork still need your time.\n\nRigBoss helps owner-operators handle the business around the truck. Hours stay on the ELD you already run.\n\nSee the product and whether it fits your operation:"
+        },
+        {
+          "id": "eld",
+          "channel": "facebook",
+          "medium": "organic_social",
+          "title": "Keep the ELD you run",
+          "body": "RigBoss works alongside the ELD you already use. Your hours stay there. RigBoss handles the business work around your operation.\n\nIf you own the truck and do the paperwork, here's where to look:"
+        }
+      ],
+      "followup": "For an owner-operator who has replied: Which paperwork is taking your time this week? I can show you the relevant part of RigBoss."
+    },
+    {
+      "id": "mc-declined-work",
+      "company": "Mech Correct",
+      "mark": "MC",
+      "priority": 5,
+      "audience": "Independent repair shop owners with estimates that customers have not approved.",
+      "offer": "Try the shop workflow with a real job; start free from the public site.",
+      "destination": "https://mechcorrect.com/",
+      "conversion": "A shop demo or trial that becomes a paid shop",
+      "goal": "2 qualified shop conversations and 1 trial started by September 11 (target)",
+      "budget": 0,
+      "blocker": "Verify the signup handoff and the declined-work demo. Do not claim recovered revenue without a paid invoice.",
+      "sources": [
+        "https://mechcorrect.com/"
+      ],
+      "tasks": [
+        {
+          "day": 1,
+          "text": "Check signup and record the path from an inspection photo to an estimate and declined-work follow-up. Use demo data."
+        },
+        {
+          "day": 3,
+          "text": "Publish the estimate post on Mike's LinkedIn with the tagged link."
+        },
+        {
+          "day": 5,
+          "text": "Publish the photo demo. Offer a walkthrough to shop owners who reply."
+        },
+        {
+          "day": 6,
+          "text": "Record shop trials and paid subscriptions. Keep trial activity separate from sales."
+        }
+      ],
+      "assets": [
+        {
+          "id": "estimate",
+          "channel": "linkedin",
+          "medium": "organic_social",
+          "title": "Follow up on the estimate",
+          "body": "A customer declined the repair. The finding is still on the ticket, and someone needs to follow up.\n\nMech Correct keeps inspection photos, estimates, and customer messages with the job. You can see the work that was declined and follow up from the shop record.\n\nTry the workflow with your next job:"
+        },
+        {
+          "id": "photo",
+          "channel": "facebook",
+          "medium": "organic_social",
+          "title": "Start the demo with a photo",
+          "body": "Bring a photo of the problem to a Mech Correct demo. See how the inspection finding becomes an estimate, how the customer approves it, and where declined work goes for follow-up.\n\nHere's the product tour and free start:"
+        }
+      ],
+      "followup": "For a shop owner who has replied: Do you have a recent estimate we can use as an example, with customer details removed? I'll show you the follow-up workflow."
+    }
+  ],
+  "unallocatedUSD": 15,
+  "recurringAuthorized": false
+}

@@ -106,12 +106,15 @@
 
     document.getElementById("q").addEventListener("input", e => { query = e.target.value; render(); });
 
-    fetch("brain.json").then(r => r.json()).then(data => {
-      notes = data.notes || [];
-      render();
-    }).catch(() => {
-      $list.innerHTML = `<div class="empty">Could not load brain.json. See <a href="llms.txt">llms.txt</a>.</div>`;
-    });
+    fetch("brain.json")
+      .then(r => { if (!r.ok) throw new Error("local"); return r.json(); })
+      .catch(() => fetch("https://cdn.jsdelivr.net/gh/Mike-CloudForest/growth-os@main/docs/brain.json").then(r => r.json()))
+      .then(data => {
+        notes = data.notes || [];
+        render();
+      }).catch(() => {
+        $list.innerHTML = `<div class="empty">Could not load brain.json. See <a href="https://raw.githubusercontent.com/Mike-CloudForest/growth-os/main/docs/llms.txt">llms.txt</a>.</div>`;
+      });
   </script>
 </body>
 </html>

@@ -2,6 +2,7 @@ node_modules
 .vercel
 .tanstack
 .grok
+!.grok/app-env.json
 .output
 dist
 artifacts

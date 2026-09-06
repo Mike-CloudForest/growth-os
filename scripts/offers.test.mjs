@@ -16,6 +16,10 @@ test('public briefings and embedded fallback match the corrected source',async()
  assert.match(pricing.body,/\$99\/mo or \$990\/yr, first 20/);assert.match(pricing.body,/\$169\/mo or \$1,690\/yr/);assert.match(pricing.body,/trial requires a card/);
  assert.equal(read('public/llms.txt'),read('docs/llms.txt'));
  for(const path of ['docs/brain.json','docs/llms.txt','docs/GEMINI.md','README.md','src/lib/seed.ts']) assert.doesNotMatch(read(path),/59\.99|Founding 35|first 35|not pay until someone enrolls/);
+ for(const path of ['docs/llms.txt','public/llms.txt','docs/GEMINI.md','public/sprint/app.js','public/sprint/index.html']){
+  assert.match(read(path),/\$120/);
+  assert.doesNotMatch(read(path),/Lyceum \$20|DojoZeus \$25|\$15 unallocated|The \$100 test/);
+ }
 });
 test('saved seed corrections preserve user text, workflow and results',async()=>{
  const {reconcileOffers}=await load('src/lib/offer-migration.ts');

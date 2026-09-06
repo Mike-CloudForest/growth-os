@@ -1,21 +1,24 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
-import { initialState, taggedUrl, transition, validateState, validateRecord, totalSpend, recommendation } from '../public/sprint/core.js';
+import { MAX_BUDGET, initialState, taggedUrl, transition, validateState, validateRecord, totalSpend, recommendation } from '../public/sprint/core.js';
 const data=JSON.parse(readFileSync(new URL('../public/sprint/campaigns-v03.json',import.meta.url),'utf8'));
+const ledger=JSON.parse(readFileSync(new URL('../public/sprint/allocations-v02.json',import.meta.url),'utf8'));
 const record={id:'a',campaignId:'cf-free-visit',date:'2026-09-05',evidence:'CRM daily export',visits:10,conversations:1,bookings:1,trials:0,customers:0,ours:3,spend:12.5,revenue:0};
 test('five companies, authorized budget, unique campaign links, correct domains',()=>{
- assert.equal(data.campaigns.length,5);assert.equal(data.campaigns.reduce((s,c)=>s+c.budget,0)+data.unallocatedUSD,100);
+ assert.equal(data.campaigns.length,5);assert.equal(MAX_BUDGET,120);assert.equal(data.budget,120);assert.equal(data.campaigns.reduce((s,c)=>s+c.budget,0)+data.unallocatedUSD,120);
  const domains=['traincloudforest.com','dojozeus.com','joinlyceum.com','rigboss.app','mechcorrect.com'];const urls=new Set();
  data.campaigns.forEach((c,i)=>c.assets.forEach(a=>{const u=new URL(taggedUrl(c,a));assert.equal(u.hostname,domains[i]);assert.ok(u.searchParams.get('utm_campaign'));assert.ok(!urls.has(u.href));urls.add(u.href);}));
- assert.equal(data.campaigns[1].budget,25);assert.equal(data.campaigns[2].budget,20);assert.equal(data.unallocatedUSD,15);
+ assert.equal(data.campaigns[0].budget,40);assert.equal(data.campaigns[1].budget,40);assert.equal(data.campaigns[2].budget,40);assert.equal(data.campaigns[3].budget,0);assert.equal(data.campaigns[4].budget,0);assert.equal(data.unallocatedUSD,0);
  const dojo=data.campaigns.find(c=>c.id==='dz-owner');
  assert.equal(new URL(taggedUrl(dojo,dojo.assets.find(a=>a.id==='paid-office'))).searchParams.get('utm_campaign'),'growth_20260905_dz-school-owner');
+ assert.equal(ledger.totalLimitUSD,120);assert.equal(ledger.allocatedUSD,120);assert.equal(ledger.unallocatedUSD,0);assert.equal(ledger.recurringAuthorized,false);
+ assert.deepEqual(ledger.allocations.map(a=>[a.company,a.lifetimeCapUSD]),[['Cloud Forest',40],['Lyceum',40],['DojoZeus',40]]);
 });
 test('approval and publication cannot be inferred',()=>{
  const s={stage:'draft',checked:false,proof:''};assert.throws(()=>transition(s,'live',0));assert.throws(()=>transition({...s,checked:true},'live',0));
  const approved=transition({...s,checked:true},'approved',0);assert.throws(()=>transition(approved,'live',0));
- assert.equal(transition({...approved,proof:'Meta ad reference'},'live',0).stage,'live');assert.throws(()=>transition({...approved,proof:'Meta'},'live',100));
+ assert.equal(transition({...approved,proof:'Meta ad reference'},'live',0).stage,'live');assert.throws(()=>transition({...approved,proof:'Meta'},'live',120));
 });
 test('results reject invalid values and count real and test visits separately',()=>{
  assert.equal(validateRecord(record,['cf-free-visit']).visits,10);

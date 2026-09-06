@@ -1,6 +1,6 @@
 # Spending service implementation status
 
-The public campaign desk offers a draft weekly policy and a dry-run evaluator. It cannot hold a card, activate a policy, authorize a purchase, or stop a provider's running ads. No payment details are requested, collected, or stored. The one-time $100 campaign authorization does not authorize a recurring $100 weekly charge.
+The public campaign desk offers a draft weekly policy and a dry-run evaluator. It cannot hold a card, activate a policy, authorize a purchase, or stop a provider's running ads. No payment details are requested, collected, or stored. The one-time $120 campaign authorization does not authorize a recurring $120 weekly charge.
 
 ## Payment model
 

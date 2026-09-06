@@ -41,7 +41,7 @@ function Cockpit() {
     <div>
       <a href="/sprint/" className="mb-6 block rounded-xl border border-border bg-card p-5">
         <strong>This week's campaigns: September 5 to 11</strong>
-        <p className="mt-2 text-sm text-muted-foreground">Open the campaign drafts, tagged links, daily actions, and evidence log. The ad budget is $100 total. The legacy briefing below contains seeded figures, not connected live analytics.</p>
+        <p className="mt-2 text-sm text-muted-foreground">Open the campaign drafts, tagged links, daily actions, and evidence log. The ad budget is $120 total ($40 lifetime each for Cloud Forest, Lyceum, and DojoZeus). The legacy briefing below contains seeded figures, not connected live analytics.</p>
       </a>
       <PageHeader
         kicker="System 6 · Growth cockpit"

@@ -1,7 +1,7 @@
 {
   "recordedDate": "2026-09-05",
   "campaignId": "cf-free-visit",
-  "authorization": {"totalUSD": 100, "pilotLifetimeUSD": 40, "remainingOnHoldUSD": 60, "recurringAuthorized": false},
+  "authorization": {"totalUSD": 120, "pilotLifetimeUSD": 40, "remainingOnHoldUSD": 0, "recurringAuthorized": false, "note": "This Cloud Forest launch log originally recorded a $100 aggregate with $60 on hold. Current sprint authorization is $120 with $40 lifetime each for Cloud Forest, Lyceum, and DojoZeus. See allocations-v02.json."},
   "meta": {
     "adName": "Cloud Forest | parent free visit | pilot",
     "verifiedStatus": "Active",

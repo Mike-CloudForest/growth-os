@@ -1,29 +1,37 @@
 {
   "date": "2026-09-05",
-  "totalLimitUSD": 100,
-  "allocatedUSD": 85,
-  "unallocatedUSD": 15,
+  "totalLimitUSD": 120,
+  "allocatedUSD": 120,
+  "unallocatedUSD": 0,
   "recurringAuthorized": false,
+  "instagram": {
+    "identity": "@cloudforestchinwoo",
+    "url": "https://www.instagram.com/cloudforestchinwoo/",
+    "note": "Only Wei Lei Ma or Cloud Forest Instagram identities are permitted. Do not create brand Instagram accounts."
+  },
   "allocations": [
     {
       "company": "Cloud Forest",
       "lifetimeCapUSD": 40,
-      "status": "Previously verified active; current spend not checked"
+      "status": "Previously verified Active with a $40 lifetime cap. End last verified September 5 as September 7, 2026 at 2:14 PM Eastern. Current spend, impressions, and conversions have not been rechecked.",
+      "endAt": "2026-09-07T14:14:00-04:00"
     },
     {
       "company": "Lyceum",
-      "lifetimeCapUSD": 20,
-      "status": "Published; Meta Processing verified after reload on September 5. Delivery and spend not yet verified.",
+      "lifetimeCapUSD": 40,
+      "status": "Edited in place September 5; after reload showed Active, $40.00 Lifetime, Not shared. Facebook and Instagram placements via @cloudforestchinwoo. Current spend, Instagram delivery, and conversions were not verified.",
       "page": "https://www.facebook.com/profile.php?id=61594221926196",
-      "endAt": "2026-09-08T15:52:00-04:00"
+      "endAt": "2026-09-08T15:52:00-04:00",
+      "placements": ["facebook", "instagram"]
     },
     {
       "company": "DojoZeus",
-      "lifetimeCapUSD": 25,
-      "status": "Published; Meta Processing verified after reload on September 5. Delivery and spend not yet verified.",
+      "lifetimeCapUSD": 40,
+      "status": "Edited in place September 5; after reload showed Active, $40.00 Lifetime, Not shared. Facebook and Instagram placements via @cloudforestchinwoo. Current spend, Instagram delivery, and conversions were not verified.",
       "page": "https://www.facebook.com/profile.php?id=61594283693591",
-      "endAt": "2026-09-08T15:52:00-04:00"
+      "endAt": "2026-09-08T15:52:00-04:00",
+      "placements": ["facebook", "instagram"]
     }
   ],
-  "note": "Supersedes the earlier $60 hold. A willingness to increase the weekly budget is not an approved increase or recurring charge."
+  "note": "Supersedes the prior $100 aggregate, $20/$25 brand caps, and any $15 or $60 hold. Each $40 cap includes existing spend; it is not an additional $40. No daily $40 budget, duplicate campaign, recurring renewal, or automatic weekly reset is authorized. RigBoss and Mech Correct have no paid allocation."
 }

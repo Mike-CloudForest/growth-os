@@ -2,7 +2,7 @@
   "version": 3,
   "start": "2026-09-05",
   "end": "2026-09-11",
-  "budget": 100,
+  "budget": 120,
   "campaigns": [
     {
       "id": "cf-free-visit",
@@ -77,7 +77,7 @@
         }
       ],
       "followup": "For an opted-in inquiry, after checking availability: Hi [first name], this is Mike at Cloud Forest. We have room in [class] on [day] at [time]. Would that work for your first visit?",
-      "publicationStatus": "Previously verified Active with a $40 lifetime cap. Current delivery and spend have not been rechecked."
+      "publicationStatus": "Previously verified Active with a $40 lifetime cap. End last verified September 5 as September 7, 2026 at 2:14 PM Eastern. Current spend, impressions, and conversions have not been rechecked."
     },
     {
       "id": "dz-owner",
@@ -89,8 +89,8 @@
       "destination": "https://dojozeus.com/",
       "conversion": "An owner conversation that becomes a paid school",
       "goal": "3 qualified owner conversations and 1 trial started by September 11 (target)",
-      "budget": 25,
-      "blocker": "The $25 lifetime pilot is published and Meta showed Processing after reload. Ends September 8 at 3:52 PM Eastern. Verify delivery and signup results before increasing spend.",
+      "budget": 40,
+      "blocker": "The $40 lifetime pilot was edited in place September 5. After reload Meta showed Active, $40.00 Lifetime, Not shared. Facebook and Instagram placements via @cloudforestchinwoo. Ends September 8 at 3:52 PM Eastern. Current spend, Instagram delivery, and conversions were not verified.",
       "sources": [
         "https://dojozeus.com/",
         "https://mike-cloudforest.github.io/llms.txt"
@@ -143,7 +143,7 @@
       ],
       "followup": "For an owner who has replied: Which takes more of your time right now, tracking tuition or following up with students? I can show you that part of DojoZeus first.",
       "page": "https://www.facebook.com/profile.php?id=61594283693591",
-      "publicationStatus": "Published; Meta Processing verified September 5. Delivery and customer results are not yet verified."
+      "publicationStatus": "Edited in place September 5; after reload showed Active, $40.00 Lifetime, Not shared. Facebook and Instagram placements via @cloudforestchinwoo. Current spend, Instagram delivery, and conversions were not verified."
     },
     {
       "id": "ly-first-school",
@@ -155,8 +155,8 @@
       "destination": "https://joinlyceum.com/",
       "conversion": "A verified signup that builds a school and starts a paid plan",
       "goal": "3 verified signups and 1 school with a lesson published by September 11 (target)",
-      "budget": 20,
-      "blocker": "The $20 lifetime pilot is published and Meta showed Processing after reload. Ends September 8 at 3:52 PM Eastern. Verify delivery and signup results before increasing spend.",
+      "budget": 40,
+      "blocker": "The $40 lifetime pilot was edited in place September 5. After reload Meta showed Active, $40.00 Lifetime, Not shared. Facebook and Instagram placements via @cloudforestchinwoo. Ends September 8 at 3:52 PM Eastern. Current spend, Instagram delivery, and conversions were not verified.",
       "sources": [
         "https://joinlyceum.com/",
         "https://northlight.joinlyceum.com/"
@@ -208,7 +208,7 @@
       ],
       "followup": "For a teacher who has replied: What lesson do you already have ready? Send me the topic and I'll help you choose a first step in Lyceum.",
       "page": "https://www.facebook.com/profile.php?id=61594221926196",
-      "publicationStatus": "Published; Meta Processing verified September 5. Delivery and customer results are not yet verified."
+      "publicationStatus": "Edited in place September 5; after reload showed Active, $40.00 Lifetime, Not shared. Facebook and Instagram placements via @cloudforestchinwoo. Current spend, Instagram delivery, and conversions were not verified."
     },
     {
       "id": "rb-owner-op",
@@ -313,6 +313,6 @@
       "followup": "For a shop owner who has replied: Do you have a recent estimate we can use as an example, with customer details removed? I'll show you the follow-up workflow."
     }
   ],
-  "unallocatedUSD": 15,
+  "unallocatedUSD": 0,
   "recurringAuthorized": false
 }

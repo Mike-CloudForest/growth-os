@@ -4,15 +4,25 @@
   "startsAt": "2026-09-14T00:00:00-04:00",
   "endsAtExclusive": "2026-09-21T00:00:00-04:00",
   "totalCapCents": 7500,
-  "companyCapCents": {"cloudforest": 2500, "lyceum": 2500, "dojozeus": 2500},
+  "companyCapCents": {
+    "cloudforest": 2500,
+    "lyceum": 2500,
+    "dojozeus": 2500
+  },
   "merchant": "Meta",
   "purpose": "Existing approved business advertising",
   "paymentMethod": "Meta-hosted saved payment method",
   "renewalAuthorized": false,
-  "providerScheduleVerified": false,
+  "providerScheduleVerified": true,
   "requireLifetimeBudget": true,
   "requireDuplicateCheck": true,
   "allowBudgetTransfers": false,
   "allowNewMerchants": false,
-  "allowCardDataStorage": false
+  "allowCardDataStorage": false,
+  "verifiedAt": "2026-09-08T05:11:00Z",
+  "campaignNames": [
+    "Growth OS | Cloud Forest | Sep 14-20 2026 | $25",
+    "Growth OS | Lyceum | Sep 14-20 2026 | $25",
+    "Growth OS | DojoZeus | Sep 14-20 2026 | $25"
+  ]
 }
